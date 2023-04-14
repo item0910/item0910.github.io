@@ -1656,7 +1656,7 @@ pre .css~* .id,pre .id {
 }
 
 .archives .archive-article-title {
-	font-size: 24px;
+	font-size: 16px;
 	color: #333;
 	transition: color .3s
 }
@@ -1668,7 +1668,7 @@ pre .css~* .id,pre .id {
 .archives .archive-article-title span {
 	display: block;
 	color: #a8a8a8;
-	font-size: 12px;
+	font-size: 20px;
 	line-height: 14px;
 	height: 7px;
 	padding-left: 2px
