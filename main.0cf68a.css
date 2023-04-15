@@ -781,7 +781,6 @@ body {
 
 #container {
 	position: relative;
-   background: #fafafa;
 	min-height: 100%
 }
 
@@ -1781,7 +1780,6 @@ pre .css~* .id,pre .id {
 
 .tools-col .tools-section,.tools-col .tools-wrap {
 	height: 100%;
-   background: #fafafa;
 	color: #FAFAFA;
 	width: 360px;
 	overflow: hidden;
