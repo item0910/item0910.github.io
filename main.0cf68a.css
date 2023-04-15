@@ -494,19 +494,19 @@ input::-ms-clear,input::-ms-reveal {
 }
 
 input::-moz-placeholder,textarea::-moz-placeholder {
-	color: #999
+	color: #ad9e5f
 }
 
 input:-ms-input-placeholder,textarea:-ms-input-placeholder {
-	color: #999
+	color: #ad9e5f
 }
 
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
-	color: #999
+	color: #ad9e5f
 }
 
 .placeholder {
-	color: #999
+	color: #ad9e5f
 }
 
 table {
@@ -1780,7 +1780,7 @@ pre .css~* .id,pre .id {
 
 .tools-col .tools-section,.tools-col .tools-wrap {
 	height: 100%;
-	color: #FAFAFA;
+	color: #4b2e2b;
 	width: 360px;
 	overflow: hidden;
 	overflow-y: auto
@@ -1798,10 +1798,10 @@ pre .css~* .id,pre .id {
 
 .tools-col .tools-section .search-wrap .search-ipt {
 	width: 310px;
-	color: #fff;
+	color: #229453;
 	background: none;
 	border: none;
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid #229453;
 	font-family: Roboto,serif
 }
 
@@ -1809,7 +1809,7 @@ pre .css~* .id,pre .id {
 	position: absolute;
 	right: 0;
 	top: 7px;
-	color: #fff;
+	color: #229453;
 	cursor: pointer
 }
 
@@ -1819,7 +1819,7 @@ pre .css~* .id,pre .id {
 }
 
 .tools-col .tools-section .search-wrap ::-webkit-input-placeholder {
-	color: #ededed
+	color: ad9e5f
 }
 
 .tools-col .tools-section .search-tag.tagcloud {
@@ -1933,13 +1933,13 @@ pre .css~* .id,pre .id {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	display: block;
-	color: #fffff8;
+	color: #363433;
 	text-shadow: 1px 1px rgba(77,77,77,.25)
 }
 
 .tools-col .tools-section .search-ul .search-title .icon {
 	margin-right: 10px;
-	color: #fffdd8
+	color: #363433
 }
 
 .tools-col .tools-section .search-ul .search-title:hover {
@@ -1948,7 +1948,7 @@ pre .css~* .id,pre .id {
 
 .tools-col .tools-section .search-ul .search-tag,.tools-col .tools-section .search-ul .search-time {
 	font-size: 12px;
-	color: #fffdd8;
+	color: #363433;
 	margin-right: 10px
 }
 
@@ -3334,15 +3334,15 @@ pre .css~* .id,pre .id {
 	}
 
 	.header-menu.tools-nav li,.header-menu.tools-nav ul {
-		border-color: #fff
+		border-color: #4b2e2b
 	}
 
 	.header-menu.tools-nav li a,.header-menu.tools-nav ul a {
-		color: #fff
+		color: #4b2e2b
 	}
 
 	.header-menu.tools-nav li a.active,.header-menu.tools-nav ul a.active {
-		background: #81b5cc
+		background: #4b2e2b
 	}
 
 	.header-menu ul {
