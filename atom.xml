@@ -3,11 +3,11 @@
   <title>Item</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://item0910.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://item0910.github.io/"/>
   <updated>2023-04-15T23:25:43.584Z</updated>
-  <id>http://example.com/</id>
+  <id>https://item0910.github.io/</id>
   
   <author>
     <name>Item</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>卡片笔记法</title>
-    <link href="http://example.com/2023/04/25/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/"/>
-    <id>http://example.com/2023/04/25/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/</id>
+    <link href="https://item0910.github.io/2023/04/25/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/"/>
+    <id>https://item0910.github.io/2023/04/25/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/</id>
     <published>2023-04-24T16:00:00.000Z</published>
     <updated>2023-04-15T23:25:43.584Z</updated>
     
@@ -31,12 +31,12 @@
     
     
     
-    <category term="归档" scheme="http://example.com/categories/%E5%BD%92%E6%A1%A3/"/>
+    <category term="归档" scheme="https://item0910.github.io/categories/%E5%BD%92%E6%A1%A3/"/>
     
     
-    <category term="卡片笔记" scheme="http://example.com/tags/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    <category term="卡片笔记" scheme="https://item0910.github.io/tags/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="学习方法" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    <category term="学习方法" scheme="https://item0910.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
