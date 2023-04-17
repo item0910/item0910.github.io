@@ -6,7 +6,7 @@
   <link href="https://item0910.github.io/atom.xml" rel="self"/>
   
   <link href="https://item0910.github.io/"/>
-  <updated>2023-04-15T23:25:43.584Z</updated>
+  <updated>2023-04-17T00:57:12.698Z</updated>
   <id>https://item0910.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Test</title>
+    <link href="https://item0910.github.io/2023/04/27/test/"/>
+    <id>https://item0910.github.io/2023/04/27/test/</id>
+    <published>2023-04-26T16:00:00.000Z</published>
+    <updated>2023-04-17T00:57:12.698Z</updated>
+    
+    <content type="html"><![CDATA[<p>Test</p>]]></content>
+    
+    
+      
+      
+    <summary type="html"></summary>
+      
+    
+    
+    
+    <category term="归档" scheme="https://item0910.github.io/categories/%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="卡片笔记" scheme="https://item0910.github.io/tags/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习方法" scheme="https://item0910.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>卡片笔记法</title>
