@@ -16,10 +16,11 @@
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1TM411L7vR/&#34;&gt;我因为笑了一下，然后被请了家长&lt;/a&gt;&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 
-&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=527548774&amp;bvid=BV1TM411L7vR&amp;cid=1099141213&amp;page=1&amp;autoplay=0&#34; scrolling=&#34;yes&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; style=&#34;width: 640px; height: 430px; max-width: 100%;&gt; &lt;/iframe&gt;
+&lt;iframe scrolling=&#34;yes&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; style=&#34;width: 640px; height: 430px; max-width: 100%;&#34; src=&#34;http://player.bilibili.com/player.html?aid=527548774&amp;bvid=BV1TM411L7vR&amp;cid=1099141213&amp;page=1&amp;autoplay=0&#34;&gt;&lt;/iframe&gt;
 
-&lt;hr&gt;
-&lt;p&gt;(Github托管的地址用iframe元素好像有点问题, 会显示一坨白色, 还在解决)&lt;/p&gt;
+
+
+&lt;p&gt;(Github托管的地址用iframe元素好像有点问题, 会显示一坨空白, 还在解决)&lt;/p&gt;
 &lt;p&gt;视频有一分多钟，同学回顾了自己几次三番地被老师刁难和他遭受的不公正对待，旨在批判老师鸡蛋里挑骨头的行为，也获得了评论区很多朋友的认可和支持，看来和他有一样的经历的同学不在少数。 &lt;/p&gt;
 &lt;p&gt;谁对谁错不予评价，只谈一点老师，同学，和家长三者之间关系。&lt;/p&gt;
 &lt;hr&gt;
@@ -64,9 +65,10 @@
         <title>卡片笔记法</title>
         <link rel="alternate" href="https://item0910.github.io/2023/04/14/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/"/>
         <content type="html">&lt;p&gt;最近看了 &lt;a href=&#34;https://book.douban.com/subject/35503571/&#34;&gt;《卡片笔记写作法》&lt;/a&gt;，心得体会做此分享。 &lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
+
 &lt;img src=&#34;https://s2.loli.net/2023/04/15/NxlSu3JAnZf4Xsm.jpg&#34; alt=&#34;卡片笔记法-1681504177063&#34; style=&#34;width:400px&#34; /&gt;
 
-&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 
 &lt;h2 id=&#34;卡片笔记如何做&#34;&gt;&lt;a href=&#34;#卡片笔记如何做&#34; class=&#34;headerlink&#34; title=&#34;卡片笔记如何做&#34;&gt;&lt;/a&gt;卡片笔记如何做&lt;/h2&gt;&lt;h3 id=&#34;书中介绍的卡片笔记法&#34;&gt;&lt;a href=&#34;#书中介绍的卡片笔记法&#34; class=&#34;headerlink&#34; title=&#34;书中介绍的卡片笔记法:&#34;&gt;&lt;/a&gt;书中介绍的卡片笔记法:&lt;/h3&gt;&lt;p&gt;我们将笔记分为三类:&lt;/p&gt;
 &lt;ul&gt;
