@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Item • All posts by \"习惯\" tag",
+    "description": "",
+    "home_page_url": "https://item0910.github.io",
+    "items": [
+        {
+            "id": "https://item0910.github.io/2023/04/22/%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3%E7%B1%BB%E6%9D%90%E6%96%99%E7%9A%84%E6%AD%A5%E9%AA%A4/",
+            "url": "https://item0910.github.io/2023/04/22/%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3%E7%B1%BB%E6%9D%90%E6%96%99%E7%9A%84%E6%AD%A5%E9%AA%A4/",
+            "title": "如何学习一个文档类的材料",
+            "date_published": "2023-04-21T16:00:00.000Z",
+            "content_html": "<p>最近学习了一些文档类的材料, 总结了一点方法论, 做此分享</p>\n<img src=\"https://s2.loli.net/2023/05/11/32oabDAxqQV71Ug.jpg\" alt=\"db8cfa362d42e28677bfb7cf54847531\" style=\"width:400px\" />\n\n<span id=\"more\"></span> \n\n<h2 id=\"1-首先是思考需求\"><a href=\"#1-首先是思考需求\" class=\"headerlink\" title=\"1. 首先是思考需求\"></a>1. 首先是思考需求</h2><p>除去学校和单位要求完成的内容, 在学习和工作之前, 我们都要进行有针对性地规划，并提前搞清楚下面这个重要问题:</p>\n<ul>\n<li>你在为谁服务：你的服务对象是谁, 他的需求有哪些？</li>\n</ul>\n<img src=\"https://s2.loli.net/2023/05/11/flE78Q9JLAcZFyG.jpg\" alt=\"微信截图_20230511050441\" style=\"width:400px\" />\n\n\n\n\n\n<p>在这个学习过程中, 有几点原则需要遵守: </p>\n<ul>\n<li><p>没有绝对正确的答案。（更好的方法总是存在的）展示并讨论你的方法，不要带着感情因素——你的方法并不等于你本人，去发现错误，并为自己的错误负责。</p>\n</li>\n<li><p>把学习当成生活方式。知道如何获取知识, 坚持学习最新的技术</p>\n</li>\n<li><p>如果在团队中学习，学会做领导者，善于沟通激励。</p>\n</li>\n<li><p>善用工具，学会把事情简化。</p>\n</li>\n</ul>\n<img src=\"https://s2.loli.net/2023/05/11/OY8vb29u1WexopQ.jpg\" alt=\"feabdc64d7c2ca0b4d1b4587e59dcd8\" style=\"width:400px\" />\n\n\n\n<p>以上的很多问题都可以展开说，但又显啰嗦，就先罗列重点在此，以后有机会再展开。</p>\n<h2 id=\"2-寻找材料\"><a href=\"#2-寻找材料\" class=\"headerlink\" title=\"2. 寻找材料\"></a>2. 寻找材料</h2><ol>\n<li>根据主题，寻找 3-4 份资料（按照优先顺序为文档 &gt; 书籍 &gt; 视频 &gt; 音频）</li>\n<li>概览材料目录，做好提纲以搞清脉络。</li>\n</ol>\n<h2 id=\"3-找到学习重点-添加细节-Map\"><a href=\"#3-找到学习重点-添加细节-Map\" class=\"headerlink\" title=\"3. 找到学习重点, 添加细节 Map\"></a>3. 找到学习重点, 添加细节 Map</h2><p>在上一步找到的材料中汇总重点部分（出现频率较高的），重新整理一份学习的脉络，在心中（或者在纸上）组成一个关于这个主题知识的 Map，方便在需要强调的地方快速查找</p>\n<img src=\"https://s2.loli.net/2023/05/11/G9sqzrPMEepBDi4.jpg\" alt=\"f8a217b37c5f7d4b80ad5f1a851b79e0\" style=\"width:400px\" />\n\n\n\n\n\n<h2 id=\"4-进行完整学习\"><a href=\"#4-进行完整学习\" class=\"headerlink\" title=\"4. 进行完整学习\"></a>4. 进行完整学习</h2><ol>\n<li>如果学习材料内容较多，需要做出计划，列出每天最少和最多的目标。（这也是一个可以展开的内容）</li>\n<li>每日开始学习前，根据计划，概览当日内容（当然, 在能力足够的情况下需要总览内容）做好提纲，这个过程也可以看做是一种咀嚼消化的过程。</li>\n<li>学习的过程中顺便做笔记，将重要的知识点摘录下来，主要是通过与以往知识进行对比，找出共通点和不同之处从而加深理解。对学习内容标注 tag，以便今后的归类和检索。 </li>\n<li>搭建自己的理解图，整理成文。这时候你会有一个新的 Menu 了，按照新 Menu 逐渐摸索出自己的学习框架，产生新的大脑 </li>\n<li>如果学习的是需要考试的内容，后续可以进行刻意练习，以加强熟练度。</li>\n</ol>\n<h2 id=\"5-建立和克服惯性\"><a href=\"#5-建立和克服惯性\" class=\"headerlink\" title=\"5. 建立和克服惯性\"></a>5. 建立和克服惯性</h2><p>整个过程需要形成惯性，尽量不要因为其他事而停下连续的学习过程。（至少我发现再次建立惯性比重新开启学习更困难）</p>\n<img src=\"https://s2.loli.net/2023/05/11/VNY2Tz7DjlPgdtm.gif\" alt=\"2020121972\" style=\"width:400px\" />\n\n\n\n\n\n<p>以上</p>\n",
+            "tags": [
+                "学习方法",
+                "习惯"
+            ]
+        }
+    ]
+}
