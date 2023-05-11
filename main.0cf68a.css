@@ -889,6 +889,7 @@ body {
 }
 
 .left-col #header .header-smart-menu {
+	font-weight: 500;
 	font-size: 14px;
 	margin-bottom: 20px
 }
@@ -2044,12 +2045,12 @@ pre .css~* .id,pre .id {
 .article-inner h1.article-title,.article-title {
 	color: #696969;
 	margin-left: 0;
-	font-weight: 300;
+	font-weight: 500;
 	line-height: 35px;
 	margin-bottom: 20px;
 	font-size: 26px;
 	transition: color .3s;
-	font-family: 'Noto Sans SC', sans-serif;
+	font-family: 'Noto Serif SC', serif;
 }
 
 .article-header {
@@ -4092,5 +4093,5 @@ ul ul ul {
 }
 .about {
 	line-height: 2em;
-    font-family: 'Ma Shan Zheng', cursive;
+    font-family: 'Noto Serif SC', serif;
 }
