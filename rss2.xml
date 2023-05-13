@@ -9,34 +9,8 @@
     <atom:link href="https://item0910.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 12 May 2023 11:36:28 GMT</pubDate>
+    <pubDate>Thu, 11 May 2023 12:03:39 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>如何学习一个文档类的材料</title>
-      <link>https://item0910.github.io/2023/04/22/2023-04-22%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3%E7%B1%BB%E6%9D%90%E6%96%99%E7%9A%84%E6%AD%A5%E9%AA%A4/</link>
-      <guid>https://item0910.github.io/2023/04/22/2023-04-22%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3%E7%B1%BB%E6%9D%90%E6%96%99%E7%9A%84%E6%AD%A5%E9%AA%A4/</guid>
-      <pubDate>Fri, 21 Apr 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;最近学习了一些文档类的材料, 总结了一点关于文档类材料学习的方法论, 做此分享&lt;/p&gt;
-&lt;img src=&quot;https://s2.loli.net/2023/05/11/32oabDAxqQV71Ug.jpg&quot; alt=&quot;db8cfa362d42e28677bfb7cf54847531&quot; style=&quot;width:400px&quot; /&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p>最近学习了一些文档类的材料, 总结了一点关于文档类材料学习的方法论, 做此分享</p><img src="https://s2.loli.net/2023/05/11/32oabDAxqQV71Ug.jpg" alt="db8cfa362d42e28677bfb7cf54847531" style="width:400px" /><span id="more"></span> <h2 id="1-第一步-思考需求"><a href="#1-第一步-思考需求" class="headerlink" title="1. 第一步: 思考需求"></a>1. 第一步: 思考需求</h2><p>除去学校和单位要求完成的内容, 在学习和工作之前, 我们都要进行有针对性地规划，并提前搞清楚下面这个重要问题:</p><ul><li>你在为谁服务：你的服务对象是谁, 他的需求有哪些？</li></ul><img src="https://s2.loli.net/2023/05/11/flE78Q9JLAcZFyG.jpg" alt="微信截图_20230511050441" style="width:400px" /><p>明确学习过程中, 有几点原则需要遵守: </p><ul><li><p>没有绝对正确的答案。（更好的方法总是存在的）展示并讨论你的方法，不要带着感情因素——你的方法并不等于你本人，去发现错误，并为自己的错误负责。</p></li><li><p>把学习当成生活方式。知道如何获取知识, 坚持学习最新的技术</p></li><li><p>如果在团队中学习，学会做领导者，善于沟通激励。</p></li><li><p>善用工具，学会把事情简化。</p></li></ul><img src="https://s2.loli.net/2023/05/11/OY8vb29u1WexopQ.jpg" alt="feabdc64d7c2ca0b4d1b4587e59dcd8" style="width:400px" /><p>以上的很多问题都可以展开说，但又显啰嗦，就先罗列重点在此，以后有机会再展开。</p><h2 id="2-寻找材料"><a href="#2-寻找材料" class="headerlink" title="2. 寻找材料"></a>2. 寻找材料</h2><ol><li>根据主题，寻找 3-4 份资料（按照优先顺序为文档 &gt; 书籍 &gt; 视频 &gt; 音频）</li><li>概览材料目录，做好提纲以搞清脉络。</li></ol><h2 id="3-找到学习重点-添加细节-Map"><a href="#3-找到学习重点-添加细节-Map" class="headerlink" title="3. 找到学习重点, 添加细节 Map"></a>3. 找到学习重点, 添加细节 Map</h2><p>在上一步找到的材料中汇总重点部分（出现频率较高的），重新整理一份学习的脉络，在心中（或者在纸上）组成一个关于这个主题知识的 Map，方便在需要强调的地方快速查找</p><img src="https://s2.loli.net/2023/05/11/G9sqzrPMEepBDi4.jpg" alt="f8a217b37c5f7d4b80ad5f1a851b79e0" style="width:400px" /><h2 id="4-进行完整学习"><a href="#4-进行完整学习" class="headerlink" title="4. 进行完整学习"></a>4. 进行完整学习</h2><ol><li>如果学习材料内容较多，需要做出计划，列出每天最少和最多的目标。（这也是一个可以展开的内容）</li><li>每日开始学习前，根据计划，概览当日内容（当然, 在能力足够的情况下需要总览内容）做好提纲，这个过程也可以看做是一种咀嚼消化的过程。</li><li>学习的过程中顺便做笔记，将重要的知识点摘录下来，主要是通过与以往知识进行对比，找出共通点和不同之处从而加深理解。对学习内容标注 tag，以便今后的归类和检索。 </li><li>搭建自己的理解图，整理成文。这时候你会有一个新的 Menu 了，按照新 Menu 逐渐摸索出自己的学习框架，产生新的大脑 </li><li>如果学习的是需要考试的内容，后续可以进行刻意练习，以加强熟练度。</li></ol><h2 id="5-建立和克服惯性"><a href="#5-建立和克服惯性" class="headerlink" title="5. 建立和克服惯性"></a>5. 建立和克服惯性</h2><p>整个过程需要形成惯性，尽量不要因为其他事而停下连续的学习过程。（至少我发现再次建立惯性比重新开启学习更困难）</p><img src="https://s2.loli.net/2023/05/11/VNY2Tz7DjlPgdtm.gif" alt="2020121972" style="width:400px" /><p>以上</p>]]></content:encoded>
-      
-      
-      <category domain="https://item0910.github.io/categories/%E5%BD%92%E6%A1%A3/">归档</category>
-      
-      
-      <category domain="https://item0910.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/">学习方法</category>
-      
-      <category domain="https://item0910.github.io/tags/%E4%B9%A0%E6%83%AF/">习惯</category>
-      
-      
-      <comments>https://item0910.github.io/2023/04/22/2023-04-22%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3%E7%B1%BB%E6%9D%90%E6%96%99%E7%9A%84%E6%AD%A5%E9%AA%A4/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>叫你家长来</title>
@@ -64,32 +38,6 @@
       
       
       <comments>https://item0910.github.io/2023/04/19/2023-04-19%E5%8F%AB%E4%BD%A0%E5%AE%B6%E9%95%BF%E6%9D%A5/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>卡片笔记法</title>
-      <link>https://item0910.github.io/2023/04/14/2023-04-14%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/</link>
-      <guid>https://item0910.github.io/2023/04/14/2023-04-14%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/</guid>
-      <pubDate>Thu, 13 Apr 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;最近读了 &lt;a href=&quot;https://book.douban.com/subject/35503571/&quot;&gt;《卡片笔记写作法》&lt;/a&gt;，做此分享。 &lt;/p&gt;
-&lt;img src=&quot;https://s2.loli.net/2023/04/15/NxlSu3JAnZf4Xsm.jpg&quot; alt=&quot;卡片笔记法-1681504177063&quot; style=&quot;width:400px&quot; /&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p>最近读了 <a href="https://book.douban.com/subject/35503571/">《卡片笔记写作法》</a>，做此分享。 </p><img src="https://s2.loli.net/2023/04/15/NxlSu3JAnZf4Xsm.jpg" alt="卡片笔记法-1681504177063" style="width:400px" /><span id="more"></span> <h2 id="卡片笔记如何做"><a href="#卡片笔记如何做" class="headerlink" title="卡片笔记如何做"></a>卡片笔记如何做</h2><h3 id="书中介绍的卡片笔记法"><a href="#书中介绍的卡片笔记法" class="headerlink" title="书中介绍的卡片笔记法:"></a>书中介绍的卡片笔记法:</h3><p>我们将笔记分为三类:</p><ul><li><p>第一类: 闪念笔记<br>  顾名思义，闪念笔记是用作记录一些微小的收获，这种闪念可以是你凭空冒出的，也可以是你通过媒介获得的，总之一切 <strong>未经整理的材料</strong> 都可以称作闪念</p></li><li><p>第二类: 项目笔记<br>  项目笔记围绕 <strong>项目</strong> 展开。 例如:: 你需要做一个网站，那么在网站制作过程中遇到的架构，技术，设计等等，都可以成为项目笔记。<br>  它以项目为主，像是游戏里的副本，所以有些副本对主角的主要能力成长是没有帮助的，它们不会给你需要的经验也不会产生加点，但剧情需要又不得不做 (也许可以获得金钱呢)，所以你可以在项目结束后选择把项目笔记归档或者抛弃。</p></li><li><p>第三类: 永久笔记:<br>  区别于上面二者，永久笔记的特别要义在于它是由你亲自创作的。 创作过程中涉及到的 <strong>选题，概念，材料收集，案例，指标，特征和观点提炼，以及洞见的产生</strong>，都会贯穿在永久笔记的写作过程中。<br>  永久笔记的创作过程需要创作者善于将上面两类笔记与课题做联想，这将额外有助于记忆。 这个联想的过程可以借助工具，倒不必使用一车的双向链接，来使一篇文章的阅读者处于永远处在阅读背景资料的泥沼中，我们只需要从一堆线团中抽出有关联的那根，连接进这篇笔记。 这个过程需要有一个帮助检索的工具，当然还需要一个线团作为材料源。</p>  <img src="https://s2.loli.net/2023/04/15/zhAWQ1i5KYE983H.jpg" alt="卡片笔记法-1681504558031" style="width:400px" /></li></ul><h3 id="PARA-分类法"><a href="#PARA-分类法" class="headerlink" title="PARA 分类法"></a>PARA 分类法</h3><p>介绍另一种被称作 PARA 的分类笔记的方法，它把笔记分作<strong>Project</strong>,<strong>Area</strong>，<strong>Resource</strong>和<strong>Archieve</strong>四类，详细的介绍链接在这里:</p><p><a href="https://fortelabs.com/blog/para/">The PARA Method</a></p><img src="https://s2.loli.net/2023/04/15/SnPxsZG6gc7RBFm.jpg" alt="卡片笔记法-1681445811755" style="width:400px" /><p>这里也简单复述一下:<br>Project: 短期从事的项目<br>Area: 长期深耕的领域<br>Resource: 可能会用到的资源<br>Archive: 不属于以上三项的，归档类的项目</p><p>这种方法强调自己当前做的项目与长期目标的联系，亦是强调连接，在混乱中寻找有序。</p><h3 id="成为专家的途径"><a href="#成为专家的途径" class="headerlink" title="成为专家的途径"></a>成为专家的途径</h3><p>从卡片笔记，来观察专家。 我们发现，专家行事通常都有固定的套路: 舞蹈家练舞，运动员运动; 在反复的甚至是重复的训练中，他们成为专家，这就是 <a href="https://book.douban.com/subject/26895993/">刻意练习</a> 的魔力。 这里有一篇文章，可以作为参考阅读。</p><p><a href="https://developer.aliyun.com/article/195156">本杰明·富兰克林会怎样学习编程？</a></p><img src="https://s2.loli.net/2023/04/15/TJpDlArO4n8sSIP.jpg" alt="卡片笔记法-1681505582430" style="width:400px" /><p>专家到底是先摸索出了成为专家的方法，还是先成为了专家才忽觉方法有效，这是长久以来困扰我的一个问题。 </p><p>这个问题其实并没有一元论的答案。 完美主义者光靠想是无法踏上成为专家的旅程的。 他们模仿、试错、迭代、再试错，成为专家看似乏味，实则他们乐在其中。 </p><img src="https://s2.loli.net/2023/04/15/VB2NSUcKnT8m6JR.jpg" alt="09_hot_apple" style="width:400px" /><p><em>接下来我们要谈做卡片笔记 – 或者说卡片写作时的观念和态度，但在谈观念之前，我们稍微思考一下为什么要做卡片写作这件事，或者说为什么要写作</em></p><h2 id="为什么写作"><a href="#为什么写作" class="headerlink" title="为什么写作"></a>为什么写作</h2><p>我们的脑海经常一团乱麻，我们的真知灼见往往被他人忽视，这满足不了一个掷地有声者内心的期待</p><p>我们以自己的脑壳为界限，分割出写作的两类目的。 </p><h3 id="脑壳外目标"><a href="#脑壳外目标" class="headerlink" title="脑壳外目标"></a>脑壳外目标</h3><ul><li>建立有效的沟通和反馈</li><li>塑造值得信赖的形象</li></ul><h3 id="向内目标"><a href="#向内目标" class="headerlink" title="向内目标"></a>向内目标</h3><ul><li><p>在大脑的模糊的概念中找到拼接，使其清晰明朗，让想法变得有形状。</p></li><li><p>塑造举重若轻的人格<br>  与上面值得信赖的形象区别在于，前者是他人对于你的评价，来自外部; 而让自己骄傲的人格和思辨能力，是自己的感受，来自内部。</p><p>这里有两个龙虾教授的视频，主题基本一致，值得一看<br><a href="https://www.bilibili.com/video/BV1mM411T7EA/?p=1&plat_id=168">如何拥有清晰的语言表达? ——乔丹·彼得森</a><br><a href="https://www.bilibili.com/video/BV1xv4y1R78m/">如何获得最高层次的思维锤炼？</a></p></li></ul><img src="https://s2.loli.net/2023/04/15/LiN15yVrH9YncKE.jpg" alt="卡片笔记法-1681506317754" style="width:400px"/><p>现在我们知道了卡片笔记要怎么做，这样做是为了什么，接着再来谈卡片写作中的<strong>观念和 tips</strong>。</p><h2 id="卡片写作时应该持有的观念"><a href="#卡片写作时应该持有的观念" class="headerlink" title="卡片写作时应该持有的观念"></a>卡片写作时应该持有的观念</h2><h3 id="1-我们永远不可能从零开始"><a href="#1-我们永远不可能从零开始" class="headerlink" title="1. 我们永远不可能从零开始"></a>1. 我们永远不可能从零开始</h3><p>很多人在了解了卡片写作之后着手的第一件事就是重构已有的笔记。 这在材料不多的时候是可行的，但其实渐进原则要求我们只是从当前做起便可以了。 用索引的方式给笔记添加标签，让你容易找到线头; 从现在开始认真对待 <strong>简单的想法</strong>，从一块砖开始一点一点的把高楼堆起来，即使是你同事在头脑风暴会中提出的让你万马奔腾的**** 。。</p><h3 id="2-降低对质量的期待"><a href="#2-降低对质量的期待" class="headerlink" title="2. 降低对质量的期待"></a>2. 降低对质量的期待</h3><p>我们的目标是在不断地迭代之中找到适合自己的写作方式，而不是一锤子就凿出一个大卫;<br>完美主义并不是一个褒义词，抛弃有朝一日获得所有人认可的幻想，从邪恶的评价中找到优化的方向，而不是在亲朋好友的赞美中迷失自我。</p><h3 id="3-用写作来引导工作流"><a href="#3-用写作来引导工作流" class="headerlink" title="3. 用写作来引导工作流"></a>3. 用写作来引导工作流</h3><p>当你有了很多闪念卡片之后，你需要找到时间消灭他们: 我们根据选题，将卡片标准化，并根据写作目标进行拆解，将他们与主题相关联。 因为每个卡片位置和功能都不尽相同，这是一场颇有趣味的积木游戏。<br>最后用 get things done 的心态，把凌乱的 chaos 组织成有序、对称的 beauty，带来和谐的满足。</p><img src="https://s2.loli.net/2023/04/15/nzfJ1vECrOam7Z8.jpg" alt="卡片笔记法-1681505634464" style="width:400px"/><h3 id="4-注重广度与连接"><a href="#4-注重广度与连接" class="headerlink" title="4. 注重广度与连接"></a>4. 注重广度与连接</h3><p>不要害怕莫名其妙主题的卡片会增加你资料堆的复杂度，把他们看做你跨领域思考的机会，一些跨领域的方法带来的思维快感是无与伦比的，况且类比和连接更能加深你对某个事物的记忆，使整个系统更加健壮。</p><h3 id="5-带着镣铐跳舞"><a href="#5-带着镣铐跳舞" class="headerlink" title="5. 带着镣铐跳舞"></a>5. 带着镣铐跳舞</h3><ol><li>蚂蚁般的囤积欲会让你的卡片不断溢出，养成一个习惯: 抑制自己的表达欲。 </li><li>写作的过程是构思语言来实现与人沟通的过程，必须要考虑到你的受众与你绝不会相同。 在内容之外，如何组织语言建立有效沟通，本身就是一种创作。</li></ol><img src="https://s2.loli.net/2023/04/15/efzHBphl5tUy2mK.jpg" alt="卡片笔记法-1681505319476" style="width:400px"/><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ol><li>卡片笔记写作是帮助思考的手段，是每个人必须养成的习惯</li><li>行动起来，收集 -&gt; 组织 -&gt; 洞见 -&gt; 反馈，要建罗马，今天就必须开始。</li></ol><img src="https://s2.loli.net/2023/04/15/5GnKXUHNIxqvh9j.jpg" alt="卡片笔记法-1681504885040" style="width:400px"/><h3 id="拓展阅读"><a href="#拓展阅读" class="headerlink" title="拓展阅读"></a>拓展阅读</h3><p><a href="https://developer.aliyun.com/article/195156">本杰明·富兰克林会怎样学习编程？</a><br><a href="https://www.bilibili.com/video/BV1mM411T7EA/?p=1&plat_id=168">如何拥有清晰的语言表达? ——乔丹·彼得森</a><br><a href="https://www.bilibili.com/video/BV1xv4y1R78m/">如何获得最高层次的思维锤炼？</a></p>]]></content:encoded>
-      
-      
-      <category domain="https://item0910.github.io/categories/%E5%BD%92%E6%A1%A3/">归档</category>
-      
-      
-      <category domain="https://item0910.github.io/tags/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/">卡片笔记</category>
-      
-      <category domain="https://item0910.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/">学习方法</category>
-      
-      
-      <comments>https://item0910.github.io/2023/04/14/2023-04-14%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/#disqus_thread</comments>
       
     </item>
     
