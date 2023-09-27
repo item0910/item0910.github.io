@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
   
   <meta name="renderer" content="webkit">
@@ -261,6 +260,14 @@
   </div>
 </footer>
     </div>
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'Your appId',
+            appKey: 'Your appKey'
+        })
+    </script>
     <script>
 	var yiliaConfig = {
 		mathjax: false,

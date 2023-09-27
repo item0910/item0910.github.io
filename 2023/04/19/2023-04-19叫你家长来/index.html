@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
   
   <meta name="renderer" content="webkit">
@@ -289,6 +288,32 @@
   
 
   
+  
+		<section id="comments" class="comments">
+		  <style>
+			.comments{margin:30px;padding:10px;background:#fff}
+			@media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+		  </style>
+		  <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+   var notify = 'false' == true ? true : false;
+   var verify = 'false' == true ? true : false;
+    window.onload = function() {
+        new Valine({
+            el: '.comment',
+            notify: notify,
+            verify: verify,
+            app_id: "zgfG77PpH7yGMw9b2Y6d24j6-gzGzoHsz",
+            app_key: "n8VzGo3GdTbOjtTMiRMDlyDB",
+            placeholder: "Just go go",
+            avatar:"mm"
+        });
+    }
+</script>
+	    </section>
+  
 
           </div>
         </div>
@@ -307,6 +332,14 @@
   </div>
 </footer>
     </div>
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'Your appId',
+            appKey: 'Your appKey'
+        })
+    </script>
     <script>
 	var yiliaConfig = {
 		mathjax: false,
