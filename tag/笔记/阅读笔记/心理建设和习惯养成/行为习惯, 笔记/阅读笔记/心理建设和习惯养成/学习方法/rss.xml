@@ -1,15 +1,20 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://item0910.github.io</id>
-    <title>Item</title>
-    <link href="https://item0910.github.io" />
-    <updated>2023-04-13T16:00:00.000Z</updated>
-    <category term="笔记/阅读笔记/心理建设和习惯养成/行为习惯, 笔记/阅读笔记/心理建设和习惯养成/学习方法" />
-    <entry>
-        <id>https://item0910.github.io/2023/04/14/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/</id>
-        <title>卡片笔记法</title>
-        <link rel="alternate" href="https://item0910.github.io/2023/04/14/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/"/>
-        <content type="html">&lt;p&gt;最近看了 &lt;a href=&#34;https://book.douban.com/subject/35503571/&#34;&gt;《卡片笔记写作法》&lt;/a&gt;，心得体会做此分享。 &lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Item • Posts by &#34;笔记/阅读笔记/心理建设和习惯养成/行为习惯, 笔记/阅读笔记/心理建设和习惯养成/学习方法&#34; tag</title>
+        <link>https://item0910.github.io</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0800</pubDate>
+        <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0800</lastBuildDate>
+        <category>笔记/阅读笔记/心理建设和习惯养成/行为习惯, 笔记/阅读笔记/心理建设和习惯养成/学习方法</category>
+        <item>
+            <guid isPermalink="true">https://item0910.github.io/2023/04/14/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/</guid>
+            <title>卡片笔记法</title>
+            <link>https://item0910.github.io/2023/04/14/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E5%86%99%E4%BD%9C%E6%B3%95/</link>
+            <category>笔记/阅读笔记/心理建设和习惯养成/行为习惯, 笔记/阅读笔记/心理建设和习惯养成/学习方法</category>
+            <pubDate>Fri, 14 Apr 2023 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;最近看了 &lt;a href=&#34;https://book.douban.com/subject/35503571/&#34;&gt;《卡片笔记写作法》&lt;/a&gt;，心得体会做此分享。 &lt;/p&gt;
 &lt;p&gt;![[附件&amp;#x2F;image&amp;#x2F;卡片笔记写作法-1681849410161.jpeg]]&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 
@@ -74,8 +79,7 @@
 &lt;h3 id=&#34;拓展阅读&#34;&gt;&lt;a href=&#34;#拓展阅读&#34; class=&#34;headerlink&#34; title=&#34;拓展阅读&#34;&gt;&lt;/a&gt;拓展阅读&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://developer.aliyun.com/article/195156&#34;&gt;本杰明·富兰克林会怎样学习编程？&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1mM411T7EA/?p=1&amp;plat_id=168&#34;&gt;如何拥有清晰的语言表达? ——乔丹·彼得森&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1xv4y1R78m/&#34;&gt;如何获得最高层次的思维锤炼？&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="笔记/阅读笔记/心理建设和习惯养成/行为习惯, 笔记/阅读笔记/心理建设和习惯养成/学习方法" />
-        <updated>2023-04-13T16:00:00.000Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>
