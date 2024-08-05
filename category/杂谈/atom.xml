@@ -1,18 +1,14 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Item • Posts by &#34;杂谈&#34; category</title>
-        <link>https://item0910.github.io</link>
-        <description></description>
-        <language>en</language>
-        <pubDate>Tue, 06 Aug 2024 00:00:00 +0800</pubDate>
-        <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">https://item0910.github.io/2024/08/06/%E6%9D%82%E8%B0%88/2024-08-06%E5%B0%8A%E4%B8%A5/</guid>
-            <title>尊严</title>
-            <link>https://item0910.github.io/2024/08/06/%E6%9D%82%E8%B0%88/2024-08-06%E5%B0%8A%E4%B8%A5/</link>
-            <pubDate>Tue, 06 Aug 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;咋活叫有尊严那家人们&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://item0910.github.io</id>
+    <title>Item • Posts by &#34;杂谈&#34; category</title>
+    <link href="https://item0910.github.io" />
+    <updated>2024-08-05T16:00:00.000Z</updated>
+    <entry>
+        <id>https://item0910.github.io/2024/08/06/%E6%9D%82%E8%B0%88/2024-08-06%E5%B0%8A%E4%B8%A5/</id>
+        <title>尊严</title>
+        <link rel="alternate" href="https://item0910.github.io/2024/08/06/%E6%9D%82%E8%B0%88/2024-08-06%E5%B0%8A%E4%B8%A5/"/>
+        <content type="html">&lt;p&gt;咋活叫有尊严那家人们&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 
 &lt;ol&gt;
@@ -29,7 +25,7 @@
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg&#34; alt=&#34;240806尊严_ww&#34;&gt;&lt;/p&gt;
 &lt;p&gt;图片来自W.W.&lt;/p&gt;
 &lt;p&gt;2024年 夏&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <updated>2024-08-05T16:00:00.000Z</updated>
+    </entry>
+</feed>
