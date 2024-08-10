@@ -1,7 +1,23 @@
-/*隐藏元素*/
+/*隐藏两个元素*/
 .vpower {
   display: none !important;
 }
+
+.vheader {
+    display: flex; /* 使用 flexbox 布局 */
+}
+
+.vinput {
+    flex: 1; /* 让每个输入框平分可用空间 */
+    box-sizing: border-box; /* 确保 padding 和 border 不影响宽度计算 */
+}
+
+.vinput:last-child {
+    display: none;
+}
+
+
+
 
 .clearfix:after,.clearfix:before {
 	content: "";
