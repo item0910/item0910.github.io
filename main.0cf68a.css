@@ -1,6 +1,14 @@
-/*隐藏两个元素*/
+/*隐藏元素*/
 .vpower {
   display: none !important;
+}
+
+.vempty {
+  display: none !important;
+}
+
+.vinput:last-child {
+    display: none !important;
 }
 
 .vheader {
@@ -12,9 +20,7 @@
     box-sizing: border-box; /* 确保 padding 和 border 不影响宽度计算 */
 }
 
-.vinput:last-child {
-    display: none !important;
-}
+
 
 /*本想调整段落格式, 但效果不佳
 p {
