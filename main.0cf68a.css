@@ -1,3 +1,16 @@
+
+/*更改about的样式*/
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 使父模块高度为视口高度 */
+}
+
+.about {
+    text-align: center; /* 文字居中 */
+}
+
 /*隐藏元素*/
 .vpower {
   display: none !important;
@@ -4126,6 +4139,7 @@ ul ul ul {
 	list-style-type: square
 }
 .about {
+	text-align: center; /* 文字居中 */
 	line-height: 2em;
     font-family: 'Noto Serif SC', serif;
 }
