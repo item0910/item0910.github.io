@@ -24,7 +24,7 @@
 <meta property="og:image" content="https://s2.loli.net/2024/09/01/6EtDArKd1pf7JWZ.jpg">
 <meta property="og:image" content="https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg">
 <meta property="article:published_time" content="2024-08-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-09-01T12:32:51.449Z">
+<meta property="article:modified_time" content="2024-09-01T14:35:45.098Z">
 <meta property="article:author" content="Item">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://s2.loli.net/2024/09/01/6EtDArKd1pf7JWZ.jpg">
@@ -49,13 +49,22 @@
   <script>
 	  document.addEventListener("DOMContentLoaded", function() {
 		if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-		  var images = document.querySelectorAll(".specialImage");
-		  images.forEach(function(image) {
-			image.style.display = "block";
-		  });
+			// 处理图片
+			var images = document.querySelectorAll(".specialImage");
+			images.forEach(function(image) {
+				image.style.display = "block";
+			});
+			
+			// 处理标题
+			var subtitles = document.querySelectorAll(".subtitle");
+			subtitles.forEach(function(subtitle) {
+				subtitle.style.display = "block";
+			});
 		}
 	  });
   </script>
+
+
 <meta name="generator" content="Hexo 6.2.0"></head>
 
 <body>
@@ -173,8 +182,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>啥叫活的有尊严啊家人们</p>
-<img class="specialImage" src="https://s2.loli.net/2024/09/01/6EtDArKd1pf7JWZ.jpg" style="width:100px; display:none; margin:0;">
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px; border: 1px solid transparent; transition: background-color 0.3s, border-color 0.3s;"> 
+    <span class = "subtitle" style="flex-grow: 1; display: none;">啥叫活的有尊严啊家人们</span> 
+    <img class="specialImage" src="https://s2.loli.net/2024/09/01/6EtDArKd1pf7JWZ.jpg" style="width:100px; display:none;"> 
+</div> 
 
 <span id="more"></span> 
 

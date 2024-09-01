@@ -42,13 +42,22 @@
   <script>
 	  document.addEventListener("DOMContentLoaded", function() {
 		if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-		  var images = document.querySelectorAll(".specialImage");
-		  images.forEach(function(image) {
-			image.style.display = "block";
-		  });
+			// 处理图片
+			var images = document.querySelectorAll(".specialImage");
+			images.forEach(function(image) {
+				image.style.display = "block";
+			});
+			
+			// 处理标题
+			var subtitles = document.querySelectorAll(".subtitle");
+			subtitles.forEach(function(subtitle) {
+				subtitle.style.display = "block";
+			});
 		}
 	  });
   </script>
+
+
 <meta name="generator" content="Hexo 6.2.0"></head>
 
 <body>
@@ -168,8 +177,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>我从小看到大</p>
-<img class="specialImage" src="https://s2.loli.net/2024/09/01/lQmp6HwntdZxAW7.jpg" style="width:100px; display:none; margin:0;">
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px; border: 1px solid transparent; transition: background-color 0.3s, border-color 0.3s;"> 
+    <span class = "subtitle" style="flex-grow: 1; display: none;">我从小看到大</span> 
+    <img class="specialImage" src="https://s2.loli.net/2024/09/01/lQmp6HwntdZxAW7.jpg" style="width:100px; display:none;"> 
+</div>
         
           <!-- <a class="article-more-a" href="/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%88%91%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/#more">更多 >></a> -->
 		  <a class="article-more-a" href="/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%88%91%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/">更多 >></a>
@@ -249,8 +260,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>啥叫活的有尊严啊家人们</p>
-<img class="specialImage" src="https://s2.loli.net/2024/09/01/6EtDArKd1pf7JWZ.jpg" style="width:100px; display:none; margin:0;">
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px; border: 1px solid transparent; transition: background-color 0.3s, border-color 0.3s;"> 
+    <span class = "subtitle" style="flex-grow: 1; display: none;">啥叫活的有尊严啊家人们</span> 
+    <img class="specialImage" src="https://s2.loli.net/2024/09/01/6EtDArKd1pf7JWZ.jpg" style="width:100px; display:none;"> 
+</div>
         
           <!-- <a class="article-more-a" href="/2024/08/06/%E6%9D%82%E8%B0%88/2024-8-6%E5%B0%8A%E4%B8%A5/#more">更多 >></a> -->
 		  <a class="article-more-a" href="/2024/08/06/%E6%9D%82%E8%B0%88/2024-8-6%E5%B0%8A%E4%B8%A5/">更多 >></a>

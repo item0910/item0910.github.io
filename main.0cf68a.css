@@ -2092,7 +2092,7 @@ pre .css~* .id,pre .id {
 }
 
 .article img {
-	max-width: 100%
+	max-width: 100%;
 }
 
 .article-inner h1.article-title,.article-title {
@@ -2256,6 +2256,7 @@ pre .css~* .id,pre .id {
     margin: 0 auto;
 	width: 80%;
 	margin-top: 10px;
+	margin-bottom: 30px; /* 增加下边距 */
 }
 
 

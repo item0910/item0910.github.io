@@ -29,13 +29,6 @@ const observer = new MutationObserver((mutationsList) => {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-        if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-            document.getElementById("specialImage").style.display = "block";
-        }
-    }, 100); // 100ms 延迟，视需要调整
-});
 
 
 observer.observe(document.body, { childList: true, subtree: true });

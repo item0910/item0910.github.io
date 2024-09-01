@@ -42,13 +42,22 @@
   <script>
 	  document.addEventListener("DOMContentLoaded", function() {
 		if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-		  var images = document.querySelectorAll(".specialImage");
-		  images.forEach(function(image) {
-			image.style.display = "block";
-		  });
+			// 处理图片
+			var images = document.querySelectorAll(".specialImage");
+			images.forEach(function(image) {
+				image.style.display = "block";
+			});
+			
+			// 处理标题
+			var subtitles = document.querySelectorAll(".subtitle");
+			subtitles.forEach(function(subtitle) {
+				subtitle.style.display = "block";
+			});
 		}
 	  });
   </script>
+
+
 <meta name="generator" content="Hexo 6.2.0"></head>
 
 <body>

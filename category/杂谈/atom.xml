@@ -1,18 +1,14 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Item • Posts by &#34;杂谈&#34; category</title>
-        <link>https://item0910.github.io</link>
-        <description></description>
-        <language>en</language>
-        <pubDate>Sat, 31 Aug 2024 00:00:00 +0800</pubDate>
-        <lastBuildDate>Sat, 31 Aug 2024 00:00:00 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">https://item0910.github.io/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%88%91%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/</guid>
-            <title>我推荐大伙多看电视</title>
-            <link>https://item0910.github.io/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%88%91%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/</link>
-            <pubDate>Sat, 31 Aug 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;div style=&#34;display: flex; align-items: center; justify-content: space-between; padding: 10px; border: 1px solid transparent; transition: background-color 0.3s, border-color 0.3s;&#34;&gt; 
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://item0910.github.io</id>
+    <title>Item • Posts by &#34;杂谈&#34; category</title>
+    <link href="https://item0910.github.io" />
+    <updated>2024-08-30T16:00:00.000Z</updated>
+    <entry>
+        <id>https://item0910.github.io/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%88%91%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/</id>
+        <title>我推荐大伙多看电视</title>
+        <link rel="alternate" href="https://item0910.github.io/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%88%91%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/"/>
+        <content type="html">&lt;div style=&#34;display: flex; align-items: center; justify-content: space-between; padding: 10px; border: 1px solid transparent; transition: background-color 0.3s, border-color 0.3s;&#34;&gt; 
     &lt;span class = &#34;subtitle&#34; style=&#34;flex-grow: 1; display: none;&#34;&gt;我从小看到大&lt;/span&gt; 
     &lt;img class=&#34;specialImage&#34; src=&#34;https://s2.loli.net/2024/09/01/lQmp6HwntdZxAW7.jpg&#34; style=&#34;width:100px; display:none;&#34;&gt; 
 &lt;/div&gt; 
@@ -52,14 +48,14 @@
 &lt;p&gt;我想每个人一定都有和电视的美好回忆。我许愿的是，无论你是一个人，还是和你的亲密关系窝在一起，无论是电视还是什么东西在承载你的情感，无论是渴望寻回还是享受当下，珍惜他们吧。&lt;/p&gt;
 &lt;p&gt;2024 秋&lt;/p&gt;
 &lt;img src=&#34;https://s2.loli.net/2024/09/01/lQmp6HwntdZxAW7.jpg&#34; style=&#34;width:300px; display:none;&#34;&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://item0910.github.io/2024/08/06/%E6%9D%82%E8%B0%88/2024-8-6%E5%B0%8A%E4%B8%A5/</guid>
-            <title>尊严</title>
-            <link>https://item0910.github.io/2024/08/06/%E6%9D%82%E8%B0%88/2024-8-6%E5%B0%8A%E4%B8%A5/</link>
-            <pubDate>Tue, 06 Aug 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;div style=&#34;display: flex; align-items: center; justify-content: space-between; padding: 10px; border: 1px solid transparent; transition: background-color 0.3s, border-color 0.3s;&#34;&gt; 
+</content>
+        <updated>2024-08-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://item0910.github.io/2024/08/06/%E6%9D%82%E8%B0%88/2024-8-6%E5%B0%8A%E4%B8%A5/</id>
+        <title>尊严</title>
+        <link rel="alternate" href="https://item0910.github.io/2024/08/06/%E6%9D%82%E8%B0%88/2024-8-6%E5%B0%8A%E4%B8%A5/"/>
+        <content type="html">&lt;div style=&#34;display: flex; align-items: center; justify-content: space-between; padding: 10px; border: 1px solid transparent; transition: background-color 0.3s, border-color 0.3s;&#34;&gt; 
     &lt;span class = &#34;subtitle&#34; style=&#34;flex-grow: 1; display: none;&#34;&gt;啥叫活的有尊严啊家人们&lt;/span&gt; 
     &lt;img class=&#34;specialImage&#34; src=&#34;https://s2.loli.net/2024/09/01/6EtDArKd1pf7JWZ.jpg&#34; style=&#34;width:100px; display:none;&#34;&gt; 
 &lt;/div&gt; 
@@ -106,7 +102,7 @@
 &lt;p&gt;图片来自 W.W.&lt;/p&gt;
 &lt;p&gt;2024 年 夏&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg&#34; alt=&#34;240806尊严_ww&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <updated>2024-08-05T16:00:00.000Z</updated>
+    </entry>
+</feed>
