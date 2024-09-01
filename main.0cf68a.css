@@ -1,3 +1,12 @@
+/* 默认隐藏图片 */
+.show-on-home-only {
+    display: none;
+}
+
+/* 仅在主页显示图片 */
+body.home .show-on-home-only {
+    display: block;
+}
 
 /*更改about的样式*/
 .parent {
