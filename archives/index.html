@@ -7,9 +7,14 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <!--字体外部链接-->
+  <!--
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href='http://fonts.font.im/css?family=Noto+Serif|Noto+Sans:500' rel='stylesheet' type='text/css'>
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
   <!--外部链接完-->
   <link rel="dns-prefetch" href="https://item0910.github.io">
   <title>Archives | Item</title>
@@ -39,33 +44,40 @@
 
   
 
-    <script>
-	  document.addEventListener("DOMContentLoaded", function() {
+	<script>
+	  document.addEventListener('DOMContentLoaded', function() {
+		// 处理首页图片和标题显示
 		if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-			// 处理图片
-			var images = document.querySelectorAll(".specialImage");
-			images.forEach(function(image) {
-				image.style.display = "block";
-			});
-			
-			// 处理标题
-			var subtitles = document.querySelectorAll(".subtitle");
-			subtitles.forEach(function(subtitle) {
-				subtitle.style.display = "block";
-			});
+		  var images = document.querySelectorAll(".specialImage");
+		  images.forEach(function(image) {
+			image.style.display = "block";
+		  });
+
+		  var subtitles = document.querySelectorAll(".subtitle");
+		  subtitles.forEach(function(subtitle) {
+			subtitle.style.display = "block";
+		  });
 		}
-	  });
-		document.addEventListener('DOMContentLoaded', function() {
-		const link = document.querySelector('.article-link');
-		const subtitle = document.querySelector('.subtitle');
-	  
-			if (link && subtitle) {
-			  link.addEventListener('click', function() {
-				subtitle.style.color = 'gray'; // 或者你想要的颜色
-			  });
+
+		// 处理 .article-link 点击事件
+		const links = document.querySelectorAll('.article-link');
+		links.forEach(function(link) {
+		  link.addEventListener('click', function(event) {
+			// 这里可以移除 event.preventDefault()，以便链接可以正常跳转
+			// event.preventDefault(); 
+			
+			const subtitle = link.parentElement.querySelector('.subtitle');
+			if (subtitle) {
+			  subtitle.style.color = 'gray';
 			}
+
+			// 如果需要跳转，可以手动执行
+			window.location.href = link.href;
+		  });
 		});
-  </script>
+	  });
+	</script>
+
 
 <meta name="generator" content="Hexo 6.2.0"></head>
 
