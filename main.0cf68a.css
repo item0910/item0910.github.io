@@ -44,6 +44,10 @@
   display: none !important;
 }
 
+.vcol .vcol-30{
+  display: none !important;
+}
+
 .vempty {
   display: none !important;
 }
