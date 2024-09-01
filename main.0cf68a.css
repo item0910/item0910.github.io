@@ -2092,10 +2092,10 @@ pre .css~* .id,pre .id {
 .article-inner h1.article-title,.article-title {
 	color: #696969;
 	margin-left: 0;
-	font-weight: 500;
+	font-weight: bold !important;
 	line-height: 35px;
 	margin-bottom: 20px;
-	font-size: 26px;
+	font-size: 23px !important;
 	transition: color .3s;
 	font-family: 'Noto Serif SC', serif;
 }
