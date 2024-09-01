@@ -1,11 +1,8 @@
-/* 默认隐藏图片 */
-.show-on-home-only {
-    display: none;
-}
-
-/* 仅在主页显示图片 */
-body.home .show-on-home-only {
-    display: block;
+/*让更多>>换行显示*/
+.article-more-a {
+  display: block; /* 或者使用 inline-block */
+  width: 100%; /* 确保占满容器宽度 */
+  margin-top: 10px; /* 视需要调整的间距 */
 }
 
 /*更改about的样式*/
@@ -833,7 +830,7 @@ body {
 }
 
 #mobile-nav {
-	display: none
+	display: none;
 }
 
 #container {
