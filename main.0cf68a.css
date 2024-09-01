@@ -44,8 +44,15 @@
   display: none !important;
 }
 
-.vcol .vcol-30{
-  display: none !important;
+.vcol.vcol-70.text-right {
+  text-align: right; /* 使元素内的内容靠右对齐 */
+  margin-right: 30px; /* 元素本身距离右边30px */
+  width: 95% !important; /* 确保占满容器宽度 */
+}
+
+
+.vcol.vcol-30 {
+  display: none !important; /* 完全隐藏元素，不占据空间 */
 }
 
 .vempty {

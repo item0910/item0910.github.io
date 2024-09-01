@@ -58,39 +58,51 @@
 
   
 
-	<script>
-	  document.addEventListener('DOMContentLoaded', function() {
-		// 处理首页图片和标题显示
-		if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-		  var images = document.querySelectorAll(".specialImage");
-		  images.forEach(function(image) {
-			image.style.display = "block";
-		  });
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 处理首页图片和标题显示
+    if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+      var images = document.querySelectorAll(".specialImage");
+      images.forEach(function(image) {
+        image.style.display = "block";
+      });
 
-		  var subtitles = document.querySelectorAll(".subtitle");
-		  subtitles.forEach(function(subtitle) {
-			subtitle.style.display = "block";
-		  });
-		}
+      var subtitles = document.querySelectorAll(".subtitle");
+      subtitles.forEach(function(subtitle) {
+        subtitle.style.display = "block";
+      });
 
-		// 处理 .article-link 点击事件
-		const links = document.querySelectorAll('.article-link');
-		links.forEach(function(link) {
-		  link.addEventListener('click', function(event) {
-			// 这里可以移除 event.preventDefault()，以便链接可以正常跳转
-			// event.preventDefault(); 
-			
-			const subtitle = link.parentElement.querySelector('.subtitle');
-			if (subtitle) {
-			  subtitle.style.color = 'gray';
-			}
+      // 隐藏 .article-title 元素
+      var articleTitles = document.querySelectorAll(".article-title");
+      articleTitles.forEach(function(title) {
+        title.style.display = "none";
+      });
+    } else {
+      // 在非首页显示 .article-title 元素
+      var articleTitles = document.querySelectorAll(".article-title");
+      articleTitles.forEach(function(title) {
+        title.style.display = "block";
+      });
+    }
 
-			// 如果需要跳转，可以手动执行
-			window.location.href = link.href;
-		  });
-		});
-	  });
-	</script>
+    // 处理 .article-link 点击事件
+    const links = document.querySelectorAll('.article-link');
+    links.forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        // 如果需要链接跳转，不要阻止默认行为
+        // event.preventDefault(); 
+        
+        const subtitle = link.parentElement.querySelector('.subtitle');
+        if (subtitle) {
+          subtitle.style.color = 'gray';
+        }
+
+        // 如果需要跳转，可以手动执行
+        window.location.href = link.href;
+      });
+    });
+  });
+</script>
 
 
 <meta name="generator" content="Hexo 6.2.0"></head>
@@ -194,13 +206,13 @@
   <div class="article-inner">
     
       <header class="article-header">
-		<!-- 
+		
   
     <h1 class="article-title" itemprop="name">
       我推荐大伙多看电视
     </h1>
   
- -->
+
         
         <a href="/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%88%91%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/" class="archive-article-date">
   	<time datetime="2024-08-30T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2024-08-31</time>
