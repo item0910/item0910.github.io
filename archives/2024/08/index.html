@@ -39,7 +39,7 @@
 
   
 
-  <script>
+    <script>
 	  document.addEventListener("DOMContentLoaded", function() {
 		if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
 			// 处理图片
@@ -55,8 +55,17 @@
 			});
 		}
 	  });
+		document.addEventListener('DOMContentLoaded', function() {
+		const link = document.querySelector('.article-link');
+		const subtitle = document.querySelector('.subtitle');
+	  
+			if (link && subtitle) {
+			  link.addEventListener('click', function() {
+				subtitle.style.color = 'gray'; // 或者你想要的颜色
+			  });
+			}
+		});
   </script>
-
 
 <meta name="generator" content="Hexo 6.2.0"></head>
 

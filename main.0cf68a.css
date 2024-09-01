@@ -1,8 +1,29 @@
+
+/*添加cover-image*/
+.cover-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  padding-left: 10px;
+  border: 0px solid transparent;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.cover-image .subtitle {
+  color: black;
+  flex-grow: 1;
+  display: none;
+  margin: 0; /* 清除默认边距 */
+}
+
 /*让更多>>换行显示*/
 .article-more-a {
   display: block; /* 或者使用 inline-block */
   width: 100%; /* 确保占满容器宽度 */
-  margin-top: 10px; /* 视需要调整的间距 */
+  margin-top: 2px; /* 视需要调整的间距 */
+  margin-bottom: 5px;
+  padding-left: 10px; /* 左padding */
 }
 
 /*更改about的样式*/
@@ -28,6 +49,14 @@
 
 .vinput:last-child {
     display: none !important;
+}
+
+.article-info.info-on-right {
+  display: none !important;
+}
+
+.article-info.article-info-index {
+  display: none !important;
 }
 
 .vheader {
@@ -3174,9 +3203,9 @@ pre .css~* .id,pre .id {
 	}
 
 	.article {
-		padding: 10px;
+		padding: 5px;/*改变每个格子的padding*/
 		margin: 10px 0;
-		border: 0;
+		border: 1;
 		font-size: 16px;
 		color: #555
 	}
@@ -3186,7 +3215,7 @@ pre .css~* .id,pre .id {
 	}
 
 	.article .article-entry {
-		padding: 10px 0 30px
+		padding: 10px 0 0px /*改变每个格子的padding*/
 	}
 
 	.article .article-inner h1.article-title,.article .article-title {
