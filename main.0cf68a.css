@@ -26,7 +26,7 @@
 }
 
 .cover-image .subtitle {
-  font-size: 18px;
+  font-size: 16px;
   color: black;
   display: none;
   margin: 5px 0 0 0; /* 设置上边距为 5px，其他边距为 0 */
@@ -1666,6 +1666,7 @@ pre .css~* .id,pre .id {
 }
 
 .archive-article-date {
+	font-size: 14px;
 	margin-left: 10px;
 	color: #999;
 	margin-right: 7.6923%;
@@ -3513,7 +3514,8 @@ pre .css~* .id,pre .id {
 	}
 
 	.article .article-entry {
-		padding: 0px 0 0px /*改变每个格子的padding*/
+		padding: 0px 0 0px; /*改变每个格子的padding*/
+		margin-bottom: 3px;
 	}
 
 	.article .article-inner h1.article-title,.article .article-title {
