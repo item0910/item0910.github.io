@@ -1,4 +1,15 @@
+.slider-trigger {
+    background-color: transparent; /* 保持透明背景 */
+    color: rgba(255, 255, 255, 0.85); /* 半透明的白色字体 */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* 黑色阴影增强对比度 */
+}
 
+
+.season {
+   font-size: 18px;
+   margin: 0 12px 0 0;
+   text-align: right;
+}
 .post_discribe {
 	position: absolute; 
 	left: -9999px;
@@ -2505,7 +2516,8 @@ pre .css~* .id,pre .id {
 }
 
 .article-inner p {
-	margin: 0 0 1.75em
+    text-indent: 1em;	
+	margin: 0 6px 1.75em
 }
 
 .article-inner {
@@ -2522,8 +2534,8 @@ pre .css~* .id,pre .id {
 
 .article-inner h2 {
 	font-size: 23px;
-	font-size: 1.4375rem;
-	line-height: 1.2173913043;
+	font-size: 20px;
+	line-height: 1.5;
 	margin-top: 2.4347826087em;
 	margin-bottom: 1.2173913043em
 }
@@ -2662,10 +2674,10 @@ pre .css~* .id,pre .id {
 
 .article-entry h2,.article-entry h3,.article-entry h4,.article-entry h5,.article-entry h6 {
 	margin-top: 20px;
-	font-weight: 700;
+	font-weight: 600;
 	color: #574c4c;
-	padding-bottom: 5px;
-	border-bottom: 1px solid #ddd
+	padding-bottom: 0px;
+	border-bottom: 0px solid #ddd
 }
 
 .article-entry video {
