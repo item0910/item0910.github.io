@@ -11,7 +11,6 @@
 /*添加cover-image*/
 .cover-image {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 0px;
   padding-left: 10px;
@@ -19,12 +18,24 @@
   transition: background-color 0.3s, border-color 0.3s;
 }
 
+.text-content {
+  display: flex;
+  flex-direction: column; /* 使 subtitle 和 description 垂直排列 */
+  justify-content: center; /* 调整垂直对齐方式 */
+  flex-grow: 1;
+}
+
 .cover-image .subtitle {
   font-size: 18px;
   color: black;
-  flex-grow: 1;
   display: none;
-  margin: 0; /* 清除默认边距 */
+  margin: 5px 0 0 0; /* 设置上边距为 5px，其他边距为 0 */
+}
+
+.description {
+  font-size: 14px; /* 调整描述的字体大小，确保与标题区分开 */
+  color: gray;     /* 可以自定义颜色 */
+  margin-top: 5px; /* 在 subtitle 下方添加一些间距 */
 }
 
 /*让更多>>换行显示*/
@@ -1256,7 +1267,8 @@ body {
 .left-col #header .header-smart-menu {
 	font-weight: 500;
 	font-size: 14px;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	margin-right: 5px
 }
 
 .left-col #header .header-smart-menu a:after {
@@ -1654,6 +1666,7 @@ pre .css~* .id,pre .id {
 }
 
 .archive-article-date {
+	margin-left: 10px;
 	color: #999;
 	margin-right: 7.6923%;
 	float: right
@@ -2087,8 +2100,8 @@ pre .css~* .id,pre .id {
 .archive-article-inner .article-meta .archive-article-date {
 	cursor: default;
 	font-size: 12px;
-	margin-bottom: 5px;
-	margin-top: -10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 	margin-right: 0
 }
 
@@ -2413,14 +2426,15 @@ pre .css~* .id,pre .id {
 	font-weight: bold !important;/*改手机版标题加粗*/
 	line-height: 35px;
 	margin-bottom: 20px;
-	font-size: 23px !important;/*手机版标题字体变大*/
+	font-size: 23px;/*手机版标题字体变大*/
 	transition: color .3s;
 	font-family: 'Noto Serif SC', serif;
 }
 
 .article-header {
-	border-left: 5px solid #4d4d4d;
-	padding: 30px 0 15px 25px;
+	margin-top: -10px;
+	border-left: 0px solid #4d4d4d;
+	padding: 15px 0 15px 25px;
 	padding-left: 7.6923%
 }
 
@@ -2559,6 +2573,7 @@ pre .css~* .id,pre .id {
 	font-family: 'Noto Sans SC', sans-serif;
 	letter-spacing: 1px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	font-size: 18px
 }
 
@@ -2567,8 +2582,8 @@ pre .css~* .id,pre .id {
 	display: block;
     margin: 0 auto;
 	width: 80%;
-	margin-top: 10px;
-	margin-bottom: 30px; /* 增加下边距 */
+	margin-top: 5px;
+	margin-bottom: 5px; /* 增加下边距 */
 }
 
 
@@ -3441,7 +3456,7 @@ pre .css~* .id,pre .id {
 	.article-header {
 		border-left: none;
 		padding: 0;
-		border-bottom: 1px dotted #ddd
+		border-bottom: 0px dotted #ddd
 	}
 
 	.article-header h1 {
@@ -3498,7 +3513,7 @@ pre .css~* .id,pre .id {
 	}
 
 	.article .article-entry {
-		padding: 10px 0 0px /*改变每个格子的padding*/
+		padding: 0px 0 0px /*改变每个格子的padding*/
 	}
 
 	.article .article-inner h1.article-title,.article .article-title {
