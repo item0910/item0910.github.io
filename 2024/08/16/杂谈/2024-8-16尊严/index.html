@@ -28,7 +28,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg">
 <meta property="article:published_time" content="2024-08-15T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-09-02T11:22:36.927Z">
+<meta property="article:modified_time" content="2024-09-03T21:44:17.145Z">
 <meta property="article:author" content="Item">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg">
@@ -51,49 +51,107 @@
   
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // 处理首页图片和标题显示
-    if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-      var images = document.querySelectorAll(".specialImage");
-      images.forEach(function(image) {
-        image.style.display = "block";
-      });
+document.addEventListener("DOMContentLoaded", function () {
+  // 处理首页图片和标题显示
+  if (
+	window.location.pathname === "/" ||
+	window.location.pathname === "/index.html"
+  ) {
+	var images = document.querySelectorAll(".specialImage");
+	images.forEach(function (image) {
+	  image.style.display = "block";
+	});
 
-      var subtitles = document.querySelectorAll(".subtitle");
-      subtitles.forEach(function(subtitle) {
-        subtitle.style.display = "block";
-      });
+	var subtitles = document.querySelectorAll(".subtitle");
+	subtitles.forEach(function (subtitle) {
+	  subtitle.style.display = "block";
+	});
 
-      // 隐藏 .article-title 元素
-      var articleTitles = document.querySelectorAll(".article-title");
-      articleTitles.forEach(function(title) {
-        title.style.display = "none";
-      });
-    } else {
-      // 在非首页显示 .article-title 元素
-      var articleTitles = document.querySelectorAll(".article-title");
-      articleTitles.forEach(function(title) {
-        title.style.display = "block";
-      });
-    }
+	// 隐藏 .article-title 元素
+	var articleTitles = document.querySelectorAll(".article-title");
+	articleTitles.forEach(function (title) {
+	  title.style.display = "none";
+	});
+  } else {
+	// 在非首页显示 .article-title 元素
+	var articleTitles = document.querySelectorAll(".article-title");
+	articleTitles.forEach(function (title) {
+	  title.style.display = "block";
+	});
+  }
 
-    // 处理 .article-link 点击事件
-    const links = document.querySelectorAll('.article-link');
-    links.forEach(function(link) {
-      link.addEventListener('click', function(event) {
-        // 如果需要链接跳转，不要阻止默认行为
-        // event.preventDefault(); 
-        
-        const subtitle = link.parentElement.querySelector('.subtitle');
-        if (subtitle) {
-          subtitle.style.color = 'gray';
-        }
+  // 处理 .article-link 点击事件
+  const links = document.querySelectorAll(".article-link");
+  links.forEach(function (link) {
+	link.addEventListener("click", function (event) {
+	  // 如果需要链接跳转，不要阻止默认行为
+	  // event.preventDefault();
 
-        // 如果需要跳转，可以手动执行
-        window.location.href = link.href;
-      });
-    });
+	  const subtitle = link.parentElement.querySelector(".subtitle");
+	  if (subtitle) {
+		subtitle.style.color = "gray";
+	  }
+
+	  // 如果需要跳转，可以手动执行
+	  window.location.href = link.href;
+	});
   });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // 获取所有带有 .overlay 类的元素
+    const overlayElements = document.querySelectorAll(".overlay.js-overlay");
+    
+    // 使用 Hexo 的全局对象 page 获取 front-matter 中的背景图片URL
+    const backgroundimage = "https://s2.loli.net/2024/09/04/K9JsBnbLC27MWSa.jpg";
+
+    // 在控制台输出背景图片URL，检查是否获取到
+    console.log("Background image URL from front-matter:", backgroundimage);
+
+    // 如果背景图片URL存在，则设置每个 .overlay 元素的背景
+    if (backgroundimage) {
+        overlayElements.forEach(function(element) {
+            console.log("Applying background to element:", element); // 检查每个元素
+            element.style.backgroundImage = `url(${backgroundimage})`;
+            element.style.backgroundSize = 'cover'; // 背景覆盖整个元素
+            element.style.backgroundPosition = 'center'; // 背景居中
+            element.style.backgroundRepeat = 'no-repeat'; // 不重复背景
+        });
+    } else {
+        console.log("No background image URL found."); // 如果没有获取到
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollToTopButton = document.querySelector('#top a[href="#"]');
+    const scrollToBottomButton = document.querySelector('#top a[href="#footer"]');
+
+    // 点击“回到顶部”按钮
+    scrollToTopButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (window.scrollY === 0) {  // 已经在顶部
+            this.classList.add('shake');  // 添加抖动效果
+            setTimeout(() => this.classList.remove('shake'), 500);  // 0.5 秒后移除 shake 类
+        } else {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    });
+
+    // 点击“滚动到底部”按钮
+    scrollToBottomButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {  // 已经在底部
+            this.classList.add('shake');  // 添加抖动效果
+            setTimeout(() => this.classList.remove('shake'), 500);  // 0.5 秒后移除 shake 类
+        } else {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+        }
+    });
+});
+
+
+
 </script>
 
 
@@ -215,9 +273,6 @@
         
 			  <span id="more"></span> 
 
-
-<link rel="Shortcut Icon" href="https://s2.loli.net/2024/08/26/6VKvJQDEmdiI5YS.jpg" type="image/x-icon" />
-
 <div style="text-align: center;"> <span>1</span> </div>
 
 <p>在吉县上班的时候，有天一个施工队的小伙从木杆子上摔下来，把手摔断了。晚饭的时候我听别人这么一说，想象了一下，估计挺疼。</p>
@@ -240,7 +295,7 @@
 <p>他说：“不是，就一层，光装修就花了 300 多万。”</p>
 <p>旷野上盖个大平层，那不得跟故宫似的，想必壮观。</p>
 <p>我说：“那那么好的房子，你在这边，也住不上啊？”</p>
-<p>他说：“不用，我在这有地方住。除去我住的，还又买了 16 套，一共17套房子。”</p>
+<p>他说：“不用，我在这有地方住。除去我住的，还又买了 16 套，一共 17 套房子。”</p>
 <p>正好红灯，车停下了，我还没想好怎么接茬，气氛削微尴尬。</p>
 <p>他可能也感觉到了，接着说：“——可不是我吹牛，”他拿出手机，把他老婆发他的微信给我看，“都是收租的乱七八糟事儿。”</p>
 <p>我近视，也看不清，他继续抱怨起来：“收房租也怪麻烦的，房子多了，不是这坏就是那坏，整天破事儿一堆。”说着把手机摔进车门槽子里。绿灯亮了，拐弯，他打着方向盘。</p>
@@ -252,10 +307,12 @@
 <div style="text-align: center;"> <span>4</span> </div>
 
 <p>四舍五入也算认识了好些有里有面儿的人，且有的学呢。毕竟我还不懂人活到什么程度，算是有尊严。我不是说我要通过看电视然后发善心来妄想改变别人的生活，对这件事我没有兴趣。我唯一可以庄严承诺的是：我的嘴整天跑火车，所以在任何场合，我说的任何故事，它们从来都没有发生过。</p>
-<p>图片来自 W.W.<br><img src="https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg" alt="240806尊严_ww"></p>
-<p>2024 年 夏</p>
+<p>图片来自 W.W.</p>
+<p><img src="https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg" alt="240806尊严_ww"></p>
 
-  			   
+  			  
+			     <div class="season">2024 年 夏 </div>
+			   
 			  <a href="../../../../../index.html" target="_self">返回主页</a>
 		    
 
@@ -370,6 +427,10 @@
     	<div class="footer-left">
     		&copy; Item
     	</div>
+		<div id="top">
+    <a href="#">▲</a>
+    <a href="#footer">▼</a>
+</div>
       	
     </div>
 	

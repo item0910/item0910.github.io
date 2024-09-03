@@ -1,3 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#top {
+    width: 30px;
+    height: 50px;
+    background: rgba(85, 85, 85, 0.3);
+    position: fixed;
+    bottom: 1%;
+    right: 3%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#top a {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    20%, 60% {
+        transform: translateX(-3px);
+    }
+    40%, 80% {
+        transform: translateX(3px);
+    }
+}
+
+#top a.shake {
+    animation: shake 0.4s;
+}
+
+
+
+
+
 .slider-trigger {
     background-color: transparent; /* 保持透明背景 */
     color: rgba(255, 255, 255, 0.85); /* 半透明的白色字体 */
@@ -21,6 +65,7 @@
 }
 /*添加cover-image*/
 .cover-image {
+  flex-grow: 1;
   display: flex;
   justify-content: space-between;
   padding: 0px;
@@ -1684,7 +1729,7 @@ pre .css~* .id,pre .id {
 	margin-left: 10px;
 	color: #999;
 	margin-right: 7.6923%;
-	float: right
+	float: left;
 }
 
 .archive-article-date .icon {
@@ -1764,11 +1809,13 @@ pre .css~* .id,pre .id {
 }
 
 #header .header-nav .social {
+	
 	margin-top: 10px;
 	text-align: center;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
+	/*display: flex;*/
+	display: none;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	-webkit-box-pack: center;
@@ -2004,7 +2051,7 @@ pre .css~* .id,pre .id {
 }
 
 .archives-wrap:first-child {
-	margin-top: 30px
+	margin-top: 10px
 }
 
 .archives-wrap:last-child {
@@ -2449,7 +2496,7 @@ pre .css~* .id,pre .id {
 .article-header {
 	margin-top: -10px;
 	border-left: 0px solid #4d4d4d;
-	padding: 15px 0 15px 25px;
+	padding: 15px 0 2px 25px;
 	padding-left: 7.6923%
 }
 
@@ -2521,6 +2568,8 @@ pre .css~* .id,pre .id {
 }
 
 .article-inner {
+  display: flex;  /* 启用 Flexbox 布局 */
+  flex-direction: column;  /* 设置为垂直排列 */
 	border-color: #d1d1d1
 }
 
@@ -2581,8 +2630,8 @@ pre .css~* .id,pre .id {
 .article-entry {
 	font-family: 'Noto Sans SC', sans-serif;
 	line-height: 1.8em;
-	padding-right: 17.6923%;
-	padding-left: 17.6923%;
+	padding-right: 10.6923%;
+	padding-left: 7.6923%;
 }
 /*文章内部的字体格式*/
 .article-entry p {
@@ -3701,10 +3750,10 @@ pre .css~* .id,pre .id {
 	}
 
 	#mobile-nav .overlay {
-		height: 110px;
+		height: 140px;
 		position: absolute;
 		width: 100%;
-		z-index: 2;
+		z-index: 1;
 		background: #4d4d4d
 	}
 
@@ -3720,7 +3769,7 @@ pre .css~* .id,pre .id {
 
 	.header-menu {
 		height: auto;
-		margin: 10px 0 20px
+		margin: 10px 0 10px
 	}
 
 	.header-menu.tools-nav {

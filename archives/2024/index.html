@@ -45,49 +45,107 @@
   
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // 处理首页图片和标题显示
-    if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-      var images = document.querySelectorAll(".specialImage");
-      images.forEach(function(image) {
-        image.style.display = "block";
-      });
+document.addEventListener("DOMContentLoaded", function () {
+  // 处理首页图片和标题显示
+  if (
+	window.location.pathname === "/" ||
+	window.location.pathname === "/index.html"
+  ) {
+	var images = document.querySelectorAll(".specialImage");
+	images.forEach(function (image) {
+	  image.style.display = "block";
+	});
 
-      var subtitles = document.querySelectorAll(".subtitle");
-      subtitles.forEach(function(subtitle) {
-        subtitle.style.display = "block";
-      });
+	var subtitles = document.querySelectorAll(".subtitle");
+	subtitles.forEach(function (subtitle) {
+	  subtitle.style.display = "block";
+	});
 
-      // 隐藏 .article-title 元素
-      var articleTitles = document.querySelectorAll(".article-title");
-      articleTitles.forEach(function(title) {
-        title.style.display = "none";
-      });
-    } else {
-      // 在非首页显示 .article-title 元素
-      var articleTitles = document.querySelectorAll(".article-title");
-      articleTitles.forEach(function(title) {
-        title.style.display = "block";
-      });
-    }
+	// 隐藏 .article-title 元素
+	var articleTitles = document.querySelectorAll(".article-title");
+	articleTitles.forEach(function (title) {
+	  title.style.display = "none";
+	});
+  } else {
+	// 在非首页显示 .article-title 元素
+	var articleTitles = document.querySelectorAll(".article-title");
+	articleTitles.forEach(function (title) {
+	  title.style.display = "block";
+	});
+  }
 
-    // 处理 .article-link 点击事件
-    const links = document.querySelectorAll('.article-link');
-    links.forEach(function(link) {
-      link.addEventListener('click', function(event) {
-        // 如果需要链接跳转，不要阻止默认行为
-        // event.preventDefault(); 
-        
-        const subtitle = link.parentElement.querySelector('.subtitle');
-        if (subtitle) {
-          subtitle.style.color = 'gray';
-        }
+  // 处理 .article-link 点击事件
+  const links = document.querySelectorAll(".article-link");
+  links.forEach(function (link) {
+	link.addEventListener("click", function (event) {
+	  // 如果需要链接跳转，不要阻止默认行为
+	  // event.preventDefault();
 
-        // 如果需要跳转，可以手动执行
-        window.location.href = link.href;
-      });
-    });
+	  const subtitle = link.parentElement.querySelector(".subtitle");
+	  if (subtitle) {
+		subtitle.style.color = "gray";
+	  }
+
+	  // 如果需要跳转，可以手动执行
+	  window.location.href = link.href;
+	});
   });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // 获取所有带有 .overlay 类的元素
+    const overlayElements = document.querySelectorAll(".overlay.js-overlay");
+    
+    // 使用 Hexo 的全局对象 page 获取 front-matter 中的背景图片URL
+    const backgroundimage = "";
+
+    // 在控制台输出背景图片URL，检查是否获取到
+    console.log("Background image URL from front-matter:", backgroundimage);
+
+    // 如果背景图片URL存在，则设置每个 .overlay 元素的背景
+    if (backgroundimage) {
+        overlayElements.forEach(function(element) {
+            console.log("Applying background to element:", element); // 检查每个元素
+            element.style.backgroundImage = `url(${backgroundimage})`;
+            element.style.backgroundSize = 'cover'; // 背景覆盖整个元素
+            element.style.backgroundPosition = 'center'; // 背景居中
+            element.style.backgroundRepeat = 'no-repeat'; // 不重复背景
+        });
+    } else {
+        console.log("No background image URL found."); // 如果没有获取到
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollToTopButton = document.querySelector('#top a[href="#"]');
+    const scrollToBottomButton = document.querySelector('#top a[href="#footer"]');
+
+    // 点击“回到顶部”按钮
+    scrollToTopButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (window.scrollY === 0) {  // 已经在顶部
+            this.classList.add('shake');  // 添加抖动效果
+            setTimeout(() => this.classList.remove('shake'), 500);  // 0.5 秒后移除 shake 类
+        } else {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    });
+
+    // 点击“滚动到底部”按钮
+    scrollToBottomButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {  // 已经在底部
+            this.classList.add('shake');  // 添加抖动效果
+            setTimeout(() => this.classList.remove('shake'), 500);  // 0.5 秒后移除 shake 类
+        } else {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+        }
+    });
+});
+
+
+
 </script>
 
 
@@ -293,6 +351,10 @@
     	<div class="footer-left">
     		&copy; Item
     	</div>
+		<div id="top">
+    <a href="#">▲</a>
+    <a href="#footer">▼</a>
+</div>
       	
     </div>
 	
