@@ -1,3 +1,15 @@
+/* 初始状态，元素完全透明 */
+.overlay.js-overlay {
+    opacity: 0;  /* 初始透明度为0 */
+    transition: opacity 1s ease-in-out;  /* 定义透明度的过渡效果 */
+}
+
+/* 当添加 fade-in 类时，元素变为不透明 */
+.overlay.js-overlay.fade-in {
+    opacity: 1;  /* 最终透明度为1 */
+}
+
+
 html {
     scroll-behavior: smooth;
 }

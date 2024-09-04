@@ -28,7 +28,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg">
 <meta property="article:published_time" content="2024-08-15T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-09-04T06:57:28.412Z">
+<meta property="article:modified_time" content="2024-09-04T18:16:47.734Z">
 <meta property="article:author" content="Item">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg">
@@ -108,17 +108,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // 处理背景图片设置
-    const overlayElements = document.querySelectorAll(".overlay.js-overlay");
-    const backgroundimage = "https://s2.loli.net/2024/09/04/K9JsBnbLC27MWSa.jpg";
+	const overlayElements = document.querySelectorAll(".overlay.js-overlay");
+	const backgroundimage = "https://s2.loli.net/2024/09/05/LdzlhiW4rw7ospj.jpg";
 
-    if (backgroundimage) {
-        overlayElements.forEach(function(element) {
-            element.style.backgroundImage = `url(${backgroundimage})`;
-            element.style.backgroundSize = 'cover'; // 背景覆盖整个元素
-            element.style.backgroundPosition = 'center'; // 背景居中
-            element.style.backgroundRepeat = 'no-repeat'; // 不重复背景
-        });
-    }
+	if (backgroundimage) {
+		overlayElements.forEach(function(element) {
+			element.style.backgroundImage = `url(${backgroundimage})`;
+			element.style.backgroundSize = 'cover'; 
+			element.style.backgroundPosition = 'center';
+			element.style.backgroundRepeat = 'no-repeat';
+			element.classList.add('fade-in');  // 添加类以触发动画
+		});
+	}
 
     // 处理“回到顶部”和“滚动到底部”按钮
     const scrollToTopButton = document.querySelector('#top a[href="#"]');
