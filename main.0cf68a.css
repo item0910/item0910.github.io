@@ -1,7 +1,7 @@
 /* 初始状态，元素完全透明 */
 .overlay.js-overlay {
     opacity: 0;  /* 初始透明度为0 */
-    transition: opacity 1s ease-in-out;  /* 定义透明度的过渡效果 */
+    transition: opacity 1.5s ease-in-out;  /* 定义透明度的过渡效果 */
 }
 
 /* 当添加 fade-in 类时，元素变为不透明 */
@@ -3834,6 +3834,7 @@ pre .css~* .id,pre .id {
 	}
 
 	.header-menu li a {
+		font-weight: 500; /* 设为粗体 */
 		font-size: 14px;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -3849,7 +3850,7 @@ pre .css~* .id,pre .id {
 
 	.profilepic {
 		display: block;
-		border: 5px solid #fff;
+		border: 1px solid #fff;
 		border-radius: 300px;
 		width: 128px;
 		height: 128px;

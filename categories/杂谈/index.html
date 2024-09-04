@@ -105,15 +105,27 @@ document.addEventListener("DOMContentLoaded", function () {
 	const overlayElements = document.querySelectorAll(".overlay.js-overlay");
 	const backgroundimage = "";
 
-	if (backgroundimage) {
+	// 获取当前路径名
+	const pathname = window.location.pathname;
+
+	// 判断路径中是否包含 "categories" 或是否为主页
+	if (pathname === "/" || pathname.includes("/categories/")) {
 		overlayElements.forEach(function(element) {
-			element.style.backgroundImage = `url(${backgroundimage})`;
-			element.style.backgroundSize = 'cover'; 
-			element.style.backgroundPosition = 'center';
-			element.style.backgroundRepeat = 'no-repeat';
-			element.classList.add('fade-in');  // 添加类以触发动画
+			element.style.backgroundColor = '#613B37';  // 设置背景色为#0c1a30
+			element.classList.add('fade-in');  // 添加类以触发渐变效果
 		});
+	} else {
+		// 如果不是主页或categories页面，并且有背景图片，则设置背景图
+		if (backgroundimage) {
+			overlayElements.forEach(function(element) {
+				element.style.background = `url(${backgroundimage}) no-repeat center center / cover`;  // 设置背景图
+				element.classList.add('fade-in');  // 添加类以触发渐变效果
+			});
+		}
 	}
+
+
+
 
     // 处理“回到顶部”和“滚动到底部”按钮
     const scrollToTopButton = document.querySelector('#top a[href="#"]');
@@ -155,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="" class="profilepic">
-			<img src="https://s2.loli.net/2024/09/04/N6bcjwvWLCZ9tSg.jpg" class="js-avatar">
+			<img src="https://s2.loli.net/2024/09/05/qx5QXOebnPR7UzG.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href=""></a></h1>
@@ -197,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="https://s2.loli.net/2024/09/04/N6bcjwvWLCZ9tSg.jpg" class="js-avatar">
+				<img src="https://s2.loli.net/2024/09/05/qx5QXOebnPR7UzG.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author"></h1>
