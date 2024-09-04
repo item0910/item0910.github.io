@@ -63,29 +63,22 @@ html {
 .search-ul {
 	width: 90%
 }
-/*添加cover-image*/
-.cover-image {
-  flex-grow: 1;
-  display: flex;
-  justify-content: space-between;
-  padding: 0px;
-  padding-left: 10px;
-  border: 0px solid transparent;
-  transition: background-color 0.3s, border-color 0.3s;
-}
 
 .text-content {
+  padding-left: 10px;
   display: flex;
   flex-direction: column; /* 使 subtitle 和 description 垂直排列 */
   justify-content: center; /* 调整垂直对齐方式 */
   flex-grow: 1;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
-.cover-image .subtitle {
+.subtitle {
   font-size: 16px;
   color: black;
   display: none;
   margin: 5px 0 0 0; /* 设置上边距为 5px，其他边距为 0 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0); /* 添加阴影效果 */
 }
 
 .description {
@@ -2084,7 +2077,7 @@ pre .css~* .id,pre .id {
 
 .archives .archive-article {
 	margin-left: 200px;
-	padding: 20px 0;
+	padding: 10px 0;
 	border-bottom: 1px solid #eee;
 	border-top: 1px solid #fff;
 	position: relative
@@ -2495,7 +2488,7 @@ pre .css~* .id,pre .id {
 }
 
 .article-header {
-	margin-top: -10px;
+	margin-top: 0px;
 	border-left: 0px solid #4d4d4d;
 	padding: 15px 0 2px 25px;
 	padding-left: 7.6923%
@@ -3718,7 +3711,7 @@ pre .css~* .id,pre .id {
 	.archives-wrap .article-meta .archive-article-date {
 		font-size: 12px;
 		margin-right: 10px;
-		margin-top: -5px
+		margin-top: -8px
 	}
 
 	.archives-wrap .article-meta .article-tag-list-link {
@@ -3726,7 +3719,7 @@ pre .css~* .id,pre .id {
 	}
 
 	.archives .archive-article {
-		padding: 10px 0;
+		padding: 10px 0px 5px 2px;
 		margin-left: 0
 	}
 
