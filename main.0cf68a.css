@@ -3696,8 +3696,8 @@ pre .css~* .id,pre .id {
 	}
 
 	.archives-wrap {
-		margin: 10px 10px 0;
-		padding: 10px
+		margin: 10px 10px 0px 6px;
+		padding: 2px
 	}
 
 	.archives-wrap .archive-article-title {
