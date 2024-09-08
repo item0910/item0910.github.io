@@ -1,18 +1,14 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Item • Posts by &#34;杂谈&#34; category</title>
-        <link>https://itemchen.com</link>
-        <description></description>
-        <language>en</language>
-        <pubDate>Sat, 31 Aug 2024 00:00:00 +0800</pubDate>
-        <lastBuildDate>Sat, 31 Aug 2024 00:00:00 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/</guid>
-            <title>推荐大伙多看电视</title>
-            <link>https://itemchen.com/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/</link>
-            <pubDate>Sat, 31 Aug 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://itemchen.com</id>
+    <title>Item • Posts by &#34;杂谈&#34; category</title>
+    <link href="https://itemchen.com" />
+    <updated>2024-08-30T16:00:00.000Z</updated>
+    <entry>
+        <id>https://itemchen.com/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/</id>
+        <title>推荐大伙多看电视</title>
+        <link rel="alternate" href="https://itemchen.com/2024/08/31/%E6%9D%82%E8%B0%88/2024-8-31%E6%8E%A8%E8%8D%90%E5%A4%A7%E4%BC%99%E5%A4%9A%E7%9C%8B%E7%94%B5%E8%A7%86/"/>
+        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 
 
 &lt;img src=&#34;https://s2.loli.net/2024/09/01/lQmp6HwntdZxAW7.jpg&#34;&gt;
@@ -48,14 +44,14 @@
 &lt;img src=&#34;https://s2.loli.net/2024/09/01/VKxAG9wsoCLRWfh.jpg&#34;&gt;
 
 &lt;p&gt;我许愿，无论是电视还是什么东西在承载你的情感，是自己一个人还是和谁一起，是在怀恋过去还是享受当下，珍惜他们吧。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/2024/08/16/%E6%9D%82%E8%B0%88/2024-8-16%E5%B0%8A%E4%B8%A5/</guid>
-            <title>尊严</title>
-            <link>https://itemchen.com/2024/08/16/%E6%9D%82%E8%B0%88/2024-8-16%E5%B0%8A%E4%B8%A5/</link>
-            <pubDate>Fri, 16 Aug 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
+</content>
+        <updated>2024-08-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://itemchen.com/2024/08/16/%E6%9D%82%E8%B0%88/2024-8-16%E5%B0%8A%E4%B8%A5/</id>
+        <title>尊严</title>
+        <link rel="alternate" href="https://itemchen.com/2024/08/16/%E6%9D%82%E8%B0%88/2024-8-16%E5%B0%8A%E4%B8%A5/"/>
+        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 
 
 &lt;div style=&#34;text-align: center;&#34;&gt; &lt;span&gt;1&lt;/span&gt; &lt;/div&gt;
@@ -94,7 +90,7 @@
 &lt;p&gt;四舍五入也算认识了好些有里有面儿的人，且有的学呢。毕竟我还不懂人活到什么程度，算是有尊严。我不是说我要通过看电视然后发善心来妄想改变别人的生活，对这件事我没有兴趣。我唯一可以庄严承诺的是：我的嘴整天跑火车，所以在任何场合，我说的任何故事，它们从来都没有发生过。&lt;/p&gt;
 &lt;p&gt;图片来自 W.W.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg&#34; alt=&#34;240806尊严_ww&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <updated>2024-08-15T16:00:00.000Z</updated>
+    </entry>
+</feed>
