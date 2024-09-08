@@ -1,3 +1,39 @@
+
+
+
+figure {
+    margin: 0; /* 重置figure默认margin */
+    text-align: center; /* 图片和描述居中对齐 */
+}
+
+figure img {
+    display: block; /* 图片独占一行 */
+    margin: 0 auto; /* 居中显示 */
+}
+
+figure figcaption {
+    font-size: 12px; /* 调整字体大小 */
+    color: #666; /* 文字颜色为灰色 */
+    margin-top: 5px; /* 增加与图片之间的间距 */
+    line-height: 1.4; /* 调整行高 */
+    font-style: italic; /* 文字样式为斜体，增加描述感 */
+}
+
+@media (min-width: 768px) { /* 只在网页端应用 */
+  .mid-col {
+    width: 65%;
+    min-width: 640px;
+    max-width: 960px;
+    margin: 0 auto; /* 居中 */
+    left: 0; /* 重置原来的 left 值 */
+    right: 0; /* 重置原来的 right 值 */
+  }
+    .article-entry img {
+    width: 50% ; /* 将宽度调整为50% */
+  }
+}
+
+
 /* 初始状态，元素完全透明 */
 .overlay.js-overlay {
     opacity: 0;  /* 初始透明度为0 */
@@ -124,11 +160,14 @@ html {
 .vpower {
   display: none !important;
 }
+.vicon.vpreview-btn {
+    display: none !important; /* 隐藏整个元素 */
+}
 
 .vcol.vcol-70.text-right {
   text-align: right; /* 使元素内的内容靠右对齐 */
   margin-right: 30px; /* 元素本身距离右边30px */
-  width: 95% !important; /* 确保占满容器宽度 */
+  width: 100% !important; /* 确保占满容器宽度 */
 }
 
 
@@ -1082,8 +1121,9 @@ i {
 	content: "\E603"
 }
 
+/*菜单按钮颜色*/
 .icon-sort:before {
-	color: #8C6A5D;
+	color: #DEE5D4;
 	content: "\E700"
 }
 
@@ -1242,7 +1282,6 @@ body {
 	min-height: 100%;
 	background: #eaeaea;
 	left: 300px;
-	width: auto
 }
 
 .mid-col.show {
@@ -2637,7 +2676,8 @@ pre .css~* .id,pre .id {
 	font-family: 'Noto Sans SC', sans-serif;
 	line-height: 1.8em;
 	padding-right: 1.6923%;
-	padding-left: 7.6923%;
+	padding-left: 7.65923%;
+	padding-bottom: 5%;
 }
 /*文章内部的字体格式*/
 .article-entry p {
@@ -2648,13 +2688,19 @@ pre .css~* .id,pre .id {
 	font-size: 18px
 }
 
-/*所有图片的插入格式.article-entry p */
+/*图片大小*/
 .article-entry img {
-	display: block;
+    display: block;
     margin: 0 auto;
-	width: 80%;
-	margin-top: 5px;
-	margin-bottom: 5px; /* 增加下边距 */
+    width: 80%; /* 默认是80% */
+    margin-top: 5px;
+    margin-bottom: 5px; /* 增加下边距 */
+}
+
+@media (min-width: 768px) { /* 网页端应用 */
+    .article-entry img {
+        width: 50%; /* 覆盖宽度 */
+    }
 }
 
 
@@ -3572,9 +3618,9 @@ pre .css~* .id,pre .id {
 	}
 
 	.article {
-		padding: 5px;/*改变每个格子的padding*/
+		padding: 5px 8px 8px 8px;/*改变每个格子的padding*/
 		margin: 10px 0;
-		border: 1;
+		border: 1px;
 		font-size: 16px;
 		color: #555
 	}
