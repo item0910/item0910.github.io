@@ -2680,11 +2680,10 @@ pre .css~* .id,pre .id {
 }
 /*文章内部的字体格式*/
 .article-entry p {
-	font-family: 'Noto Sans SC', sans-serif;
 	letter-spacing: 1px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 18px
+	font-size: 17.5px
 }
 
 /*图片大小*/
