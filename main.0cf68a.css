@@ -2530,7 +2530,6 @@ pre .css~* .id,pre .id {
 .article-inner h1.article-title,.article-title {
 	color: #696969;
 	margin-left: 0;
-	font-weight: bold !important;/*改手机版标题加粗*/
 	line-height: 35px;
 	margin-bottom: 20px;
 	font-size: 23px;/*手机版标题字体变大*/
@@ -2660,7 +2659,7 @@ pre .css~* .id,pre .id {
 }
 
 .article-inner h1,.article-inner h2,.article-inner h3,.article-inner h4,.article-inner h5,.article-inner h6 {
-	font-weight: 900
+	font-weight: 400
 }
 
 .article-inner h1:first-child,.article-inner h2:first-child,.article-inner h3:first-child,.article-inner h4:first-child,.article-inner h5:first-child,.article-inner h6:first-child {
