@@ -147,25 +147,29 @@ document.addEventListener("DOMContentLoaded", function () {
     const scrollToTopButton = document.querySelector('#top a[href="#"]');
     const scrollToBottomButton = document.querySelector('#top a[href="#footer"]');
 
-    scrollToTopButton.addEventListener("click", function (e) {
-        e.preventDefault();
-        if (window.scrollY === 0) {  // 已经在顶部
-            this.classList.add('shake');  // 添加抖动效果
-            setTimeout(() => this.classList.remove('shake'), 500);  // 0.5 秒后移除 shake 类
-        } else {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        }
-    });
+	scrollToTopButton.addEventListener("click", function (e) {
+		console.log('clicked - Top Button');
+		e.preventDefault();
+		if (window.scrollY === 0) {
+			this.classList.add('shake');
+			setTimeout(() => this.classList.remove('shake'), 500);
+		} else {
+			console.log('Scrolling to top');
+			window.scrollTo({ top: 0, behavior: "smooth" });
+		}
+	});
 
-    scrollToBottomButton.addEventListener("click", function (e) {
-        e.preventDefault();
-        if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {  // 已经在底部
-            this.classList.add('shake');  // 添加抖动效果
-            setTimeout(() => this.classList.remove('shake'), 500);  // 0.5 秒后移除 shake 类
-        } else {
-            window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
-        }
-    });
+	scrollToBottomButton.addEventListener("click", function (e) {
+		console.log('clicked - Bottom Button');
+		e.preventDefault();
+		if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
+			this.classList.add('shake');
+			setTimeout(() => this.classList.remove('shake'), 500);
+		} else {
+			console.log('Scrolling to bottom');
+			window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+		}
+	});
 });
 
 

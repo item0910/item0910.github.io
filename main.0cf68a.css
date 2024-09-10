@@ -1,6 +1,3 @@
-
-
-
 figure {
     margin: 0; /* 重置figure默认margin */
     text-align: center; /* 图片和描述居中对齐 */
@@ -20,17 +17,21 @@ figure figcaption {
 }
 
 @media (min-width: 768px) { /* 只在网页端应用 */
-  .mid-col {
-    width: 65%;
-    min-width: 640px;
-    max-width: 960px;
-    margin: 0 auto; /* 居中 */
-    left: 0; /* 重置原来的 left 值 */
-    right: 0; /* 重置原来的 right 值 */
-  }
+    .mid-col {
+      width: 65%;
+      min-width: 640px;
+      max-width: 960px;
+      margin: 0 auto; /* 居中 */
+      left: 0; /* 重置原来的 left 值 */
+      right: 0; /* 重置原来的 right 值 */
+    }
     .article-entry img {
-    width: 50% ; /* 将宽度调整为50% */
-  }
+      width: 50% ; /* 将宽度调整为50% */
+    }
+    /*隐藏返回顶部按钮*/
+    #top {
+	  display: none;
+    }
 }
 
 
