@@ -1,3 +1,11 @@
+span.small-title {
+    display: block; /* 将span变为块级元素 */
+    line-height: 1.4;
+    text-align: center;
+    margin: 0 auto; /* 自动水平居中 */
+    width: fit-content; /* 根据内容自适应宽度 */
+}
+
 figure {
     margin: 0; /* 重置figure默认margin */
     text-align: center; /* 图片和描述居中对齐 */
