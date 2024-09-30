@@ -2681,7 +2681,7 @@ pre .css~* .id,pre .id {
 }
 /*外部的字体格式Noto Serif SC*/
 .article-entry {
-	font-family: 'Noto Sans SC', sans-serif;
+	/*font-family: 'Noto Sans SC', sans-serif;*/
 	line-height: 1.8em;
 	padding-right: 1.6923%;
 	padding-left: 7.65923%;
