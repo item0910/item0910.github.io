@@ -1,16 +1,21 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://itemchen.com</id>
-    <title>Item • Posts by &#34;by-talk&#34; category</title>
-    <link href="https://itemchen.com" />
-    <updated>2024-08-30T16:00:00.000Z</updated>
-    <category term="杂谈" />
-    <category term="吐槽" />
-    <entry>
-        <id>https://itemchen.com/zh-cn/by-talk/watch-more-tv/</id>
-        <title>推荐大伙多看电视</title>
-        <link rel="alternate" href="https://itemchen.com/zh-cn/by-talk/watch-more-tv/"/>
-        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
+<rss version="2.0">
+    <channel>
+        <title>Item • Posts by &#34;杂谈&#34; tag</title>
+        <link>https://itemchen.com</link>
+        <description>Item的个人博客</description>
+        <language>en</language>
+        <pubDate>Sat, 31 Aug 2024 00:00:00 +0800</pubDate>
+        <lastBuildDate>Sat, 31 Aug 2024 00:00:00 +0800</lastBuildDate>
+        <category>杂谈</category>
+        <category>吐槽</category>
+        <item>
+            <guid isPermalink="true">https://itemchen.com/zh-cn/by-talk/watch-more-tv/</guid>
+            <title>推荐大伙多看电视</title>
+            <link>https://itemchen.com/zh-cn/by-talk/watch-more-tv/</link>
+            <category>杂谈</category>
+            <pubDate>Sat, 31 Aug 2024 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/09/01/lQmp6HwntdZxAW7.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;产生“看回电视”这个念头是因为咱前两天在网上看奥运时候的一顿瞎点，点到 CCTV9《跟着唐诗去旅行》的一集琵琶行，讲的是白居易写这首诗的故事，还挺有意思。我就是这么附庸风雅不懂装懂地被主持人的美貌吸引，遂去 bilibili 上找，发现这集属于第二季，还没上传。&lt;/p&gt;
 &lt;p&gt;这几天的看电视感受是极好的，我归纳一下。&lt;/p&gt;
@@ -37,15 +42,15 @@
 &lt;h2 id=&#34;3、电视是一种生活方式&#34;&gt;&lt;a href=&#34;#3、电视是一种生活方式&#34; class=&#34;headerlink&#34; title=&#34;3、电视是一种生活方式&#34;&gt;&lt;/a&gt;3、电视是一种生活方式&lt;/h2&gt;&lt;p&gt;需要承认，如今看回电视多少有些刻意，有点行为艺术的意思。从上初中开始，我的房间一直都有电视，过犹不及，很早时候我就对电视失去兴趣。另一方面，我又是对电视有最多依赖的，无论住到哪里，都需要有一台电视 24 小时的播放，她与我的童年相关，我又特别怕鬼，电视一直是我的陪伴。无论她代表了我需要背着家人偷偷去看，还是可以和谁光明正大在一起看，她都是一种记忆中温暖的生活方式。于是这种方式，像一颗种子一样种在心里，如今已经长得茂密。很多时候电视只是放着，不需要她来提供什么信息或者价值，单单拿出来作为背景音，就能让我舒畅。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/09/01/VKxAG9wsoCLRWfh.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;我许愿，无论是电视还是什么东西在承载你的情感，是自己一个人还是和谁一起，是在怀恋过去还是享受当下，珍惜他们吧。&lt;/p&gt;
-</content>
-        <category term="杂谈" />
-        <updated>2024-08-30T16:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://itemchen.com/zh-cn/by-talk/what-is-dignity/</id>
-        <title>尊严</title>
-        <link rel="alternate" href="https://itemchen.com/zh-cn/by-talk/what-is-dignity/"/>
-        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://itemchen.com/zh-cn/by-talk/what-is-dignity/</guid>
+            <title>尊严</title>
+            <link>https://itemchen.com/zh-cn/by-talk/what-is-dignity/</link>
+            <category>杂谈</category>
+            <pubDate>Fri, 16 Aug 2024 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 &lt;p&gt;&lt;span class=&#34;small-title&#34;&gt;1&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;在吉县上班的时候，有天一个施工队的小伙从木杆子上摔下来，把手摔断了。晚饭的时候我听别人这么一说，想象了一下，估计挺疼。&lt;/p&gt;
 &lt;p&gt;第二天上午我经过那，看见一个人：一只手背着石膏，另一只手还在捣捣鼓鼓地忙着啥。“……TNND 这还不回去歇着”，我刚想讲，不过话到嘴边又咽回去了。有次听他们负责人说，出来干活是 150 块钱一天，出工就有钱拿，不出工就没钱拿。&lt;/p&gt;
@@ -78,8 +83,7 @@
 &lt;p&gt;四舍五入也算认识了好些有里有面儿的人，且有的学呢。毕竟我还不懂人活到什么程度，算是有尊严。我不是说我要通过看电视然后发善心来妄想改变别人的生活，对这件事我没有兴趣。我唯一可以庄严承诺的是：我的嘴整天跑火车，所以在任何场合，我说的任何故事，它们从来都没有发生过。&lt;/p&gt;
 &lt;p&gt;图片来自 W.W.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg&#34; alt=&#34;240806尊严_ww&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="杂谈" />
-        <updated>2024-08-15T16:00:00.000Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

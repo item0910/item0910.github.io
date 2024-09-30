@@ -1,16 +1,21 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://itemchen.com</id>
-    <title>Item • Posts by &#34;complain&#34; category</title>
-    <link href="https://itemchen.com" />
-    <updated>2024-09-29T16:00:00.000Z</updated>
-    <category term="杂谈" />
-    <category term="吐槽" />
-    <entry>
-        <id>https://itemchen.com/zh-cn/complain/2024_weibo/</id>
-        <title>2024年吐槽</title>
-        <link rel="alternate" href="https://itemchen.com/zh-cn/complain/2024_weibo/"/>
-        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+<rss version="2.0">
+    <channel>
+        <title>Item • Posts by &#34;吐槽&#34; tag</title>
+        <link>https://itemchen.com</link>
+        <description>Item的个人博客</description>
+        <language>en</language>
+        <pubDate>Mon, 30 Sep 2024 00:00:00 +0800</pubDate>
+        <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0800</lastBuildDate>
+        <category>杂谈</category>
+        <category>吐槽</category>
+        <item>
+            <guid isPermalink="true">https://itemchen.com/zh-cn/complain/2024_weibo/</guid>
+            <title>2024年吐槽</title>
+            <link>https://itemchen.com/zh-cn/complain/2024_weibo/</link>
+            <category>吐槽</category>
+            <pubDate>Mon, 30 Sep 2024 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;&lt;strong&gt;1 月 12 日&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;情绪的传递速度是 340m&amp;#x2F;s, 只要对着话筒喊一下口号; 理性的传递速度是每两小时 30cm-50cm, 得找个座位看字, 然后还得花时间想想在不在理, 如果不巧频率对不上还只能算白忙. - 观某地大选有感. ​​​&lt;/p&gt;
 &lt;hr&gt;
@@ -62,8 +67,7 @@
 &lt;p&gt;&lt;strong&gt;9 月 21 日&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;不妨承认一些偏见, 尊重一切是一种很麻烦的完美主义, 它驱使你不得不保留对这个世界的看法, 偏向放弃表达和个人体验. 不过上帝提供了一个优雅的解法: 幽默感.&lt;/p&gt;
 &lt;hr&gt;
-</content>
-        <category term="吐槽" />
-        <updated>2024-09-29T16:00:00.000Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

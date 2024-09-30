@@ -3637,7 +3637,7 @@ pre .css~* .id,pre .id {
 	}
 
 	.article .article-entry {
-		padding: 0px 0 0px; /*改变每个格子的padding*/
+		padding: 0px 12px 0px; /*改变每个格子的padding*/
 		margin-bottom: 3px;
 	}
 	
