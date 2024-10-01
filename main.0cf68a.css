@@ -1,3 +1,6 @@
+@import url('https://static.zeoseven.com/cn/286/main/result.css');
+
+
 span.small-title {
     display: block; /* 将span变为块级元素 */
     line-height: 1.4;
@@ -2681,7 +2684,8 @@ pre .css~* .id,pre .id {
 }
 /*外部的字体格式Noto Serif SC*/
 .article-entry {
-	/*font-family: 'Noto Sans SC', sans-serif;*/
+    font-family: "Source Han Sans HW SC VF";
+    font-weight: normal;
 	line-height: 1.8em;
 	padding-right: 1.6923%;
 	padding-left: 7.65923%;
@@ -3637,6 +3641,8 @@ pre .css~* .id,pre .id {
 	}
 
 	.article .article-entry {
+		font-family: "Source Han Sans HW SC VF";
+		font-weight: normal;
 		padding: 0px 12px 0px; /*改变每个格子的padding*/
 		margin-bottom: 3px;
 	}
