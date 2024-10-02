@@ -30,7 +30,7 @@ figure figcaption {
 @media (min-width: 768px) { /* 只在网页端应用 */
     .mid-col {
       width: 65%;
-      min-width: 640px;
+      /*min-width: 640px;*/
       max-width: 960px;
       margin: 0 auto; /* 居中 */
       left: 0; /* 重置原来的 left 值 */
