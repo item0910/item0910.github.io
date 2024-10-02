@@ -1355,6 +1355,7 @@ body {
 }
 
 .left-col #header .header-menu {
+	margin-top: -45px;
 	font-weight: 300;
 	line-height: 31px;
 	text-transform: uppercase;
