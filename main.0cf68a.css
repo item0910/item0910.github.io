@@ -1355,13 +1355,13 @@ body {
 }
 
 .left-col #header .header-menu {
-	margin-top: -45px;
+	margin-top: -40px;
 	font-weight: 300;
 	line-height: 31px;
 	text-transform: uppercase;
 	float: none;
 	min-height: 150px;
-	margin-left: -12px;
+	margin-left: 0px;
 	text-align: center;
 	display: -webkit-box;
 	-webkit-box-orient: horizontal;
@@ -1379,7 +1379,8 @@ body {
 }
 
 .left-col #header .header-smart-menu {
-	margin-top: -18px;
+	margin-left: 12px;
+	margin-top: -16px;
 	font-weight: 500;
 	font-size: 14px;
 	margin-bottom: 20px;
