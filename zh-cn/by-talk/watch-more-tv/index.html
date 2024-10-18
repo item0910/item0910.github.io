@@ -63,11 +63,29 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    // 处理首页图片和标题显示
-    if (
-        window.location.pathname === "/" ||
-        window.location.pathname === "/index.html"
-    ) {
+    handleHomepageDisplay();
+    handleArticleLinkClick();
+    handleBackgroundImage();
+    handleScrollButtons();
+    handleProfilePicDisplay();
+
+    // 判断页面是否有 hash，自动滚动到对应位置
+    if (window.location.hash) {
+        var checkExist = setInterval(function () {
+            if ($(window.location.hash).length) {
+                $('html, body').animate(
+                    { scrollTop: $(window.location.hash).offset().top - 90 },
+                    1000
+                );
+                clearInterval(checkExist);
+            }
+        }, 100);
+    }
+});
+
+// 1. 处理首页图片和标题显示
+function handleHomepageDisplay() {
+    if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
         var images = document.querySelectorAll(".specialImage");
         images.forEach(function (image) {
             image.style.display = "block";
@@ -78,26 +96,25 @@ document.addEventListener("DOMContentLoaded", function () {
             subtitle.style.display = "block";
         });
 
-        // 隐藏 .article-title 元素
         var articleTitles = document.querySelectorAll(".article-title");
         articleTitles.forEach(function (title) {
             title.style.display = "none";
         });
     } else {
-        // 在非首页显示 .article-title 元素
         var articleTitles = document.querySelectorAll(".article-title");
         articleTitles.forEach(function (title) {
             title.style.display = "block";
         });
     }
+}
 
-    // 处理 .article-link 点击事件
+// 2. 处理 .article-link 点击事件
+function handleArticleLinkClick() {
     const links = document.querySelectorAll(".article-link");
     links.forEach(function (link) {
         const subtitle = link.parentElement.querySelector(".subtitle");
         const title = link.querySelector("h1");
 
-        // 检查 sessionStorage 中是否有保存点击状态
         if (subtitle && sessionStorage.getItem(link.href)) {
             subtitle.style.color = "gray";
         }
@@ -112,75 +129,72 @@ document.addEventListener("DOMContentLoaded", function () {
             if (title) {
                 title.style.color = "gray";
             }
-            // 保存点击状态到 sessionStorage
             sessionStorage.setItem(link.href, "clicked");
             window.location.href = link.href;
         });
     });
+}
 
-    // 处理背景图片设置
-	const overlayElements = document.querySelectorAll(".overlay.js-overlay");
-	const backgroundimage = "https://wmimg.com/i/1168/2024/09/66e0525d88553.jpg";
+// 3. 处理背景图片设置
+function handleBackgroundImage() {
+    const overlayElements = document.querySelectorAll(".overlay.js-overlay");
+    const backgroundimage = "https://wmimg.com/i/1168/2024/09/66e0525d88553.jpg";
+    const pathname = window.location.pathname;
 
-	// 获取当前路径名
-	const pathname = window.location.pathname;
+    if (pathname === "/" || pathname.includes("/categories/")) {
+        overlayElements.forEach(function (element) {
+            element.style.backgroundColor = "#613B37"; // 设置背景色
+            element.classList.add("fade-in"); // 渐变效果
+        });
+    } else if (backgroundimage) {
+        overlayElements.forEach(function (element) {
+            element.style.background = `url(${backgroundimage}) no-repeat center center / cover`;
+            element.classList.add("fade-in"); // 渐变效果
+        });
+    }
+}
 
-	// 判断路径中是否包含 "categories" 或是否为主页
-	if (pathname === "/" || pathname.includes("/categories/")) {
-		overlayElements.forEach(function(element) {
-			element.style.backgroundColor = '#613B37';  // 设置背景色为#0c1a30
-			element.classList.add('fade-in');  // 添加类以触发渐变效果
-		});
-	} else {
-		// 如果不是主页或categories页面，并且有背景图片，则设置背景图
-		if (backgroundimage) {
-			overlayElements.forEach(function(element) {
-				element.style.background = `url(${backgroundimage}) no-repeat center center / cover`;  // 设置背景图
-				element.classList.add('fade-in');  // 添加类以触发渐变效果
-			});
-		}
-	}
-
-
-
-
-    // 处理“回到顶部”和“滚动到底部”按钮
+// 4. 处理“回到顶部”和“滚动到底部”按钮
+function handleScrollButtons() {
     const scrollToTopButton = document.querySelector('#top a[href="#"]');
     const scrollToBottomButton = document.querySelector('#top a[href="#footer"]');
 
-	scrollToTopButton.addEventListener("click", function (e) {
-		console.log('clicked - Top Button');
-		e.preventDefault();
-		if (window.scrollY === 0) {
-			this.classList.add('shake');
-			setTimeout(() => this.classList.remove('shake'), 500);
-		} else {
-			console.log('Scrolling to top');
-			window.scrollTo({ top: 0, behavior: "smooth" });
-		}
-	});
+    scrollToTopButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (window.scrollY === 0) {
+            this.classList.add("shake");
+            setTimeout(() => this.classList.remove("shake"), 500);
+        } else {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    });
 
-	scrollToBottomButton.addEventListener("click", function (e) {
-		console.log('clicked - Bottom Button');
-		e.preventDefault();
-		if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
-			this.classList.add('shake');
-			setTimeout(() => this.classList.remove('shake'), 500);
-		} else {
-			console.log('Scrolling to bottom');
-			window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
-		}
-	});
-	
-    if(window.location.hash){
-        var checkExist = setInterval(function() {
-           if ($(window.location.hash).length) {
-              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
-              clearInterval(checkExist);
-           }
-        }, 100);
+    scrollToBottomButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (window.innerHeight + window.scrollY >= document.body.scrollHeight) {
+            this.classList.add("shake");
+            setTimeout(() => this.classList.remove("shake"), 500);
+        } else {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+        }
+    });
+}
+
+// 5. 选择 profilepic 元素是否显示
+function handleProfilePicDisplay() {
+    var path = window.location.pathname;
+    var profilePic = document.querySelector("#mobile-nav #header .profilepic");
+    var pathSegments = path.split("/").filter((segment) => segment !== "");
+
+    if (pathSegments.length >= 3) {
+        profilePic.style.opacity = "0";
+        profilePic.style.zIndex = "-1";
+    } else {
+        profilePic.style.opacity = "1";
+        profilePic.style.zIndex = "100";
     }
-});
+}
+
 
 
 
