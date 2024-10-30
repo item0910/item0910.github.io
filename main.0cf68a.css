@@ -173,7 +173,7 @@ html {
   display: none !important;
 }
 .vicon.vpreview-btn {
-    display: none !important; /* 隐藏整个元素 */
+    /* display: none !important; 隐藏整个元素 */
 }
 
 .vcol.vcol-70.text-right {
@@ -184,23 +184,41 @@ html {
 
 
 .vcol.vcol-30 {
-  display: none !important; /* 完全隐藏元素，不占据空间 */
+  display: none !important;  /*隐藏最下面的m符号元素，不占据空间 */
 }
 
-.vempty {
-  display: none !important;
+.vlink.vinput {
+    display: none !important;/*隐藏网址的placeHolder*/
 }
 
 .vinput:last-child {
-    display: none !important;
+  /*display: none !important; 隐藏markdown预览*/
+}
+.vemoji-btn::after{
+	content: "表情"; /* 添加的文本 */
+    display: block; /* 使其显示为块元素 */
+    font-size: 10px; /* 设置字体大小 */
+    margin-top: 0px; /* 上边距，调整间距 */
+    text-align: center; /* 居中对齐 */
+}
+.vpreview-btn::after {
+    content: "预览"; /* 添加的文本 */
+    display: block; /* 使其显示为块元素 */
+    font-size: 10px; /* 设置字体大小 */
+    margin-top: 0px; /* 上边距，调整间距 */
+    text-align: center; /* 居中对齐 */
+}
+
+.vempty {
+  display: none !important; /*隐藏最下面的"来发评论吧"*/
 }
 
 .article-info.info-on-right {
-  display: none !important;
+  display: none !important; /**/
 }
 
 .article-info.article-info-index {
-  display: none !important;
+  /*display: none !important; 隐藏右下角目录, toc:true时,目录生效*/
 }
 
 .vheader {
