@@ -182,6 +182,10 @@ html {
   width: 100% !important; /* 确保占满容器宽度 */
 }
 
+.v[data-class=v] .veditor {
+    font-size: .775em !important;
+}
+
 
 .vcol.vcol-30 {
   display: none !important;  /*隐藏最下面的m符号元素，不占据空间 */
@@ -218,7 +222,7 @@ html {
 }
 
 .article-info.article-info-index {
-  /*display: none !important; 隐藏右下角目录, toc:true时,目录生效*/
+  display: none !important; /*隐藏tags*/
 }
 
 .vheader {
