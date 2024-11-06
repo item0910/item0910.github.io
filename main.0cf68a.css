@@ -1,4 +1,4 @@
-@import url('https://static.zeoseven.com/cn/286/main/result.css');
+/*@import url('https://static.zeoseven.com/zsft/286/main/result.css');*/
 
 
 span.small-title {
@@ -2572,6 +2572,7 @@ pre .css~* .id,pre .id {
 	font-size: 23px;/*手机版标题字体变大*/
 	transition: color .3s;
 	font-family: 'Noto Serif SC', serif;
+	font-weight: 700;
 }
 
 .article-header {
@@ -2729,8 +2730,8 @@ pre .css~* .id,pre .id {
     display: block;
     margin: 0 auto;
     width: 80%; /* 默认是80% */
-    margin-top: 5px;
-    margin-bottom: 5px; /* 增加下边距 */
+    margin-top: 10px;
+    margin-bottom: 10px; /* 增加下边距 */
 }
 
 @media (min-width: 768px) { /* 网页端应用 */
@@ -2753,15 +2754,17 @@ pre .css~* .id,pre .id {
 .article-entry blockquote {
 	background: #ddd;
 	border-left: 5px solid #ccc;
-	padding: 15px 20px;
-	margin-top: 10px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	border-left: 5px solid #657b83;
 	background: #f6f6f6
 }
 
 .article-entry blockquote p {
-	margin-top: 0;
-	margin-bottom: 0
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: -1em;
 }
 
 .article-entry em {
@@ -2832,13 +2835,16 @@ pre .css~* .id,pre .id {
 }
 
 .article-entry hr {
-	height: 0;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-left: 0;
-	border-right: 0;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #fff
+    height: 0;
+    width: 50%; /* 设置宽度为50% */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    margin-left: auto; /* 左右居中 */
+    margin-right: auto;
 }
 
 .article-entry pre {
@@ -3674,7 +3680,7 @@ pre .css~* .id,pre .id {
 	
 	.article .article-inner h1.article-title,.article .article-title {
 		font-size: 18px;
-		font-weight: 300;
+		font-weight: 700;
 		display: block;
 		margin: 0;
 		margin-top: 5px;

@@ -1,21 +1,16 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Item • Posts by &#34;articles&#34; category</title>
-        <link>https://itemchen.com</link>
-        <description>Item的个人博客</description>
-        <language>en</language>
-        <pubDate>Fri, 18 Oct 2024 00:00:00 +0800</pubDate>
-        <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0800</lastBuildDate>
-        <category>博文</category>
-        <category>吐槽</category>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/zh-cn/articles/week_dairy_01/</guid>
-            <title>一篇周记</title>
-            <link>https://itemchen.com/zh-cn/articles/week_dairy_01/</link>
-            <category>博文</category>
-            <pubDate>Fri, 18 Oct 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://itemchen.com</id>
+    <title>Item • Posts by &#34;博文&#34; tag</title>
+    <link href="https://itemchen.com" />
+    <updated>2024-10-17T16:00:00.000Z</updated>
+    <category term="博文" />
+    <category term="吐槽" />
+    <entry>
+        <id>https://itemchen.com/zh-cn/articles/week_dairy_01/</id>
+        <title>一篇周记</title>
+        <link rel="alternate" href="https://itemchen.com/zh-cn/articles/week_dairy_01/"/>
+        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
 &lt;p&gt;最近总想写一些有意义的事情,以为能添砖加瓦,想想自己以前是最讨厌这种人的&lt;/p&gt;
 &lt;p&gt;有多以前,大概是高三第一学期,学校刚落实减负那会儿.打完篮球比赛回来月考,我的语文作文只得了40分.当时第一次对自己的作文产生迂腐近乎耻的感觉,也许作文,不可以这么写&lt;/p&gt;
@@ -36,15 +31,15 @@
 &lt;p&gt;毕业的时候,我留在宿舍里最后几个走,没有什么特殊的原因,只是买的票比他们晚.等等,侬搞撒,那会才大三,又不是分手,不过是搬宿舍的说,小脑瓜子,有够会编的.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;好了,我总是控制不住地往真挚里加佐料,再写下去又要往意义的方向拐了.我算是拎清了,我只能坚持20分钟的浪漫主义.&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/zh-cn/articles/watch_more_tv/</guid>
-            <title>推荐大伙多看电视</title>
-            <link>https://itemchen.com/zh-cn/articles/watch_more_tv/</link>
-            <category>博文</category>
-            <pubDate>Sat, 31 Aug 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
+</content>
+        <category term="博文" />
+        <updated>2024-10-17T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://itemchen.com/zh-cn/articles/watch_more_tv/</id>
+        <title>推荐大伙多看电视</title>
+        <link rel="alternate" href="https://itemchen.com/zh-cn/articles/watch_more_tv/"/>
+        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 &lt;p&gt;产生“看回电视”这个念头是因为前两天在网上看奥运时候一顿瞎点，点到记录频道《跟着唐诗去旅行》的一集琵琶行，讲的是白居易写这首诗的故事，还挺有意思。主持人特美丽，在网上找，发现这集属于第二季，还没上传。&lt;/p&gt;
 &lt;p&gt;这几天的看电视感受是极好的，我归纳如下。&lt;/p&gt;
 &lt;h2 id=&#34;1、电视节目是精神良药&#34;&gt;&lt;a href=&#34;#1、电视节目是精神良药&#34; class=&#34;headerlink&#34; title=&#34;1、电视节目是精神良药&#34;&gt;&lt;/a&gt;1、电视节目是精神良药&lt;/h2&gt;&lt;p&gt;审核方面，电视的内容是电视台出的，绝对是老少咸宜，不会有问题，虽说比较魔幻，充满正能量，好在基本不会展现真实来把你往社会焦虑的方向上引。如果你是一个常年观看敌台节目或者充满生活压力的观众，这份糖精对你负面情绪的治疗很有功效。&lt;/p&gt;
@@ -70,15 +65,15 @@
 &lt;h2 id=&#34;3、看电视是一种生活方式&#34;&gt;&lt;a href=&#34;#3、看电视是一种生活方式&#34; class=&#34;headerlink&#34; title=&#34;3、看电视是一种生活方式&#34;&gt;&lt;/a&gt;3、看电视是一种生活方式&lt;/h2&gt;&lt;p&gt;如今看回电视多少有些刻意，有点行为艺术的意思。从上初中开始，我的房间一直都有电视，过犹不及，很早时候我就对电视失去兴趣。另一方面，对电视我又是有最多依赖的，因为特别怕鬼，无论住到哪里，我都需要有一台电视 24 小时播放，成为我的陪伴。无论我是需要偷偷看，还是可以和谁一起看，她都是一种记忆中温暖的生活方式。这种方式像一颗种子一样种在心里，如今已经长得茂密。很多时候电视只是放着，不需要她来提供什么价值，单单作为背景音就能让我舒畅。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/09/01/VKxAG9wsoCLRWfh.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;许愿，无论是电视还是什么东西在承载着你的生活，是一个人还是和谁一起，是在怀恋过去还是享受当下，珍惜他们吧。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/zh-cn/articles/what_is_dignity/</guid>
-            <title>尊严</title>
-            <link>https://itemchen.com/zh-cn/articles/what_is_dignity/</link>
-            <category>博文</category>
-            <pubDate>Fri, 16 Aug 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
+</content>
+        <category term="博文" />
+        <updated>2024-08-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://itemchen.com/zh-cn/articles/what_is_dignity/</id>
+        <title>尊严</title>
+        <link rel="alternate" href="https://itemchen.com/zh-cn/articles/what_is_dignity/"/>
+        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 &lt;p&gt;&lt;span class=&#34;small-title&#34;&gt;1&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;在吉县上班的时候，有天一个施工队的小伙从木杆子上摔下来，把手摔断了。晚饭的时候我听别人这么一说，想象了一下，估计挺疼。&lt;/p&gt;
 &lt;p&gt;第二天上午我经过那，看见一个人：一只手背着石膏，另一只手还在捣捣鼓鼓地忙着啥。“……TNND 这还不回去歇着”，我刚想讲，不过话到嘴边又咽回去了。有次听他们负责人说，出来干活是 150 块钱一天，出工就有钱拿，不出工就没钱拿。&lt;/p&gt;
@@ -111,7 +106,8 @@
 &lt;p&gt;四舍五入也算认识了好些有里有面儿的人，且有的学呢。毕竟我还不懂人活到什么程度，算是有尊严。我不是说我要通过看电视然后发善心来妄想改变别人的生活，对这件事我没有兴趣。我唯一可以庄严承诺的是：我的嘴整天跑火车，所以在任何场合，我说的任何故事，它们从来都没有发生过。&lt;/p&gt;
 &lt;p&gt;图片来自 W.W.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/08/06/NxEBGFmWlqOHZfg.jpg&#34; alt=&#34;240806尊严_ww&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="博文" />
+        <updated>2024-08-15T16:00:00.000Z</updated>
+    </entry>
+</feed>

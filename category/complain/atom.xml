@@ -1,21 +1,16 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Item • Posts by &#34;吐槽&#34; tag</title>
-        <link>https://itemchen.com</link>
-        <description>Item的个人博客</description>
-        <language>en</language>
-        <pubDate>Tue, 01 Oct 2024 00:00:00 +0800</pubDate>
-        <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0800</lastBuildDate>
-        <category>博文</category>
-        <category>吐槽</category>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/zh-cn/complain/2024_tui/</guid>
-            <title>吐槽_2024</title>
-            <link>https://itemchen.com/zh-cn/complain/2024_tui/</link>
-            <category>吐槽</category>
-            <pubDate>Tue, 01 Oct 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://itemchen.com</id>
+    <title>Item • Posts by &#34;complain&#34; category</title>
+    <link href="https://itemchen.com" />
+    <updated>2024-09-30T16:00:00.000Z</updated>
+    <category term="博文" />
+    <category term="吐槽" />
+    <entry>
+        <id>https://itemchen.com/zh-cn/complain/2024_tui/</id>
+        <title>吐槽_2024</title>
+        <link rel="alternate" href="https://itemchen.com/zh-cn/complain/2024_tui/"/>
+        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;&lt;strong&gt;1 月 12 日&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;情绪的传递速度是 340m/s, 只要对着话筒喊一下口号; 理性的传递速度是每两小时 30cm - 50cm, 要看整理好的东西, 然后还得花时间想在不在理, 如果不凑巧频率对不上还只能算浪费时间白忙. ——观某地大选有感. ​​​&lt;/p&gt;
 &lt;hr&gt;
@@ -91,7 +86,8 @@
 &lt;p&gt;&lt;strong&gt;11 月 6 日&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我的颅内开发出一种新功能: 一旦在任意照片中发现主角和拍摄者之外的第三人, 就会脑补出”拍照修图,10元一张”、”美味香肠,6元一根” 等等导游大喇叭的声音&lt;/p&gt;
 &lt;hr&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="吐槽" />
+        <updated>2024-09-30T16:00:00.000Z</updated>
+    </entry>
+</feed>
