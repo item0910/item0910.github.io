@@ -2647,13 +2647,15 @@ pre .css~* .id,pre .id {
 
 .article-inner p {
     text-indent: 1em;	
-	margin: 0 6px 1.75em
+	margin: 0 6px 1.75em;
+    white-space: pre-line;     /* 保留换行符 */
 }
+
 
 .article-inner {
   display: flex;  /* 启用 Flexbox 布局 */
   flex-direction: column;  /* 设置为垂直排列 */
-	border-color: #d1d1d1
+  border-color: #d1d1d1
 }
 
 .article-inner h1 {
