@@ -69,7 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
     handleScrollButtons();
 	handleProfilePicDisplay();
 
-
     // 判断页面是否有 hash，自动滚动到对应位置
     if (window.location.hash) {
         var checkExist = setInterval(function () {
@@ -83,6 +82,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 100);
     }
 });
+
+
+
 
 // 1. 处理首页图片和标题显示
 function handleHomepageDisplay() {

@@ -98,10 +98,6 @@ html {
     animation: shake 0.4s;
 }
 
-
-
-
-
 .slider-trigger {
     background-color: transparent; /* 保持透明背景 */
     color: rgba(255, 255, 255, 0.85); /* 半透明的白色字体 */
@@ -111,7 +107,7 @@ html {
 
 .season {
    font-size: 18px;
-   margin: 0 12px 0 0;
+   margin: -10px 12px 0 0;
    text-align: right;
 }
 .post_discribe {
@@ -137,7 +133,7 @@ html {
   font-size: 16px;
   color: black;
   display: none;
-  margin: 5px 0 0 0; /* 设置上边距为 5px，其他边距为 0 */
+  margin: 10px 0 0 0; /* 设置上边距为 5px，其他边距为 0 */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0); /* 添加阴影效果 */
 }
 
@@ -1038,7 +1034,7 @@ dd,dl,li,ol,ul {
 	font-size: 18px;
 	line-height: 1.8em;
 	font-weight: 500;
-	/*font-family: 'Noto Serif SC', serif;*/
+	font-family: 'Noto Serif SC', serif;
 }
 
 ol,ul {
@@ -1408,7 +1404,7 @@ body {
 	font-size: 14px;
 	margin-bottom: 20px;
 	margin-right: 12px;
-	/*font-family: 'Source Han Sans HW SC VF';*/
+	font-family: 'Noto Serif SC', serif;
 }
 
 
@@ -2181,6 +2177,7 @@ pre .css~* .id,pre .id {
 }
 
 .archives .archive-article-title {
+	font-family: 'PingFang SC', serif;
 	font-size: 16px;
 	color: #333;
 	transition: color .3s
@@ -2573,7 +2570,7 @@ pre .css~* .id,pre .id {
 	font-size: 23px;/*手机版标题字体变大*/
 	transition: color .3s;
 	font-family: 'Noto Serif SC', serif;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .article-header {
@@ -2711,10 +2708,17 @@ pre .css~* .id,pre .id {
 	margin-bottom: 10px;
 	display: inline
 }
-/*外部的字体格式Noto Serif SC*/
+
 .article-entry {
-    font-family: "Source Han Sans HW SC VF";
-    font-weight: 500;
+    font-family: 
+		"PingFang SC", 
+		"Microsoft YaHei UI", 
+        "Microsoft YaHei", 
+        "Hiragino Sans GB", 
+        "Noto Sans CJK SC", 
+        "WenQuanYi Micro Hei", 
+        sans-serif;
+    font-weight: 400;
 	line-height: 1.8em;
 	padding-right: 1.6923%;
 	padding-left: 7.65923%;
@@ -2722,7 +2726,7 @@ pre .css~* .id,pre .id {
 }
 /*文章内部的字体格式*/
 .article-entry p {
-	letter-spacing: 1px;
+	letter-spacing: 1.3px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 17.5px
@@ -3675,15 +3679,15 @@ pre .css~* .id,pre .id {
 	}
 
 	.article .article-entry {
-		font-family: "Source Han Sans HW SC VF";
-		font-weight: 300;
+		font-family: 'PingFang SC', serif;
+		font-weight: normal;
 		padding: 0px 12px 0px; /*改变每个格子的padding*/
 		margin-bottom: 3px;
 	}
 	
 	.article .article-inner h1.article-title,.article .article-title {
 		font-size: 18px;
-		font-weight: 700;
+		font-weight: inherit;
 		display: block;
 		margin: 0;
 		margin-top: 5px;
@@ -3816,7 +3820,7 @@ pre .css~* .id,pre .id {
 	.archives-wrap .article-meta .archive-article-date {
 		font-size: 12px;
 		margin-right: 10px;
-		margin-top: -8px
+		margin-top: -4px
 	}
 
 	.archives-wrap .article-meta .article-tag-list-link {
@@ -3824,7 +3828,7 @@ pre .css~* .id,pre .id {
 	}
 
 	.archives .archive-article {
-		padding: 10px 0px 5px 2px;
+		padding: 12px 0px 2px 2px;
 		margin-left: 0
 	}
 
