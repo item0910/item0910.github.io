@@ -1,21 +1,16 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Item</title>
-        <link>https://itemchen.com</link>
-        <description>Item的个人博客</description>
-        <language>en</language>
-        <pubDate>Fri, 18 Oct 2024 00:00:00 +0800</pubDate>
-        <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0800</lastBuildDate>
-        <category>博文</category>
-        <category>吐槽</category>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/zh-cn/articles/week_dairy_01/</guid>
-            <title>一篇周记</title>
-            <link>https://itemchen.com/zh-cn/articles/week_dairy_01/</link>
-            <category>博文</category>
-            <pubDate>Fri, 18 Oct 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://itemchen.com</id>
+    <title>Item • Posts by &#34;articles&#34; category</title>
+    <link href="https://itemchen.com" />
+    <updated>2024-10-17T16:00:00.000Z</updated>
+    <category term="博文" />
+    <category term="吐槽" />
+    <entry>
+        <id>https://itemchen.com/zh-cn/articles/week_dairy_01/</id>
+        <title>一篇周记</title>
+        <link rel="alternate" href="https://itemchen.com/zh-cn/articles/week_dairy_01/"/>
+        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;最近总想写一些有意义的事情,以为能添砖加瓦,想想自己以前是最讨厌这种人的&lt;/p&gt;
 &lt;p&gt;有多以前,大概是高三第一学期,学校刚落实减负那会儿.打完篮球比赛回来月考,我的语文作文只得了 40 分.当时第一次对自己的作文产生迂腐近乎耻的感觉,也许作文,不可以这么写&lt;/p&gt;
 &lt;p&gt;之后我就对写东西要不要往里掺意义开始产生憧憬,毕竟再没有想象力的作文,只要结构规整,立意高远,最次也能拿 48 分&lt;/p&gt;
@@ -34,110 +29,15 @@
 &lt;p&gt;散伙的时候,我留在宿舍里最后几个走,没有什么特殊的原因,只是买的票比他们晚. 等等,搞撒,那会才大三,又不是毕业.不过是搬宿舍的说,小脑瓜子,有够会编的.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;好了,我总是控制不住地往真挚里加佐料,再写下去又要往意义的方向拐了. 我算是拎清了,我只能坚持二十分钟的浪漫主义&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/zh-cn/complain/2024_tui/</guid>
-            <title>一句话吐槽_2024</title>
-            <link>https://itemchen.com/zh-cn/complain/2024_tui/</link>
-            <category>吐槽</category>
-            <pubDate>Tue, 01 Oct 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-
-&lt;p&gt;&lt;strong&gt;1 月 12 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;情绪的传递速度是 340m&amp;#x2F;s, 只要对着话筒喊一下口号; 理性的传递速度是每两小时 30cm - 50cm, 要看整理好的东西, 然后还得花时间想在不在理, 如果不凑巧频率对不上还只能算浪费时间白忙. ——观某地大选有感. ​​​&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;2 月 10 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;看到一个 up, 每天框框遇大事儿, 去韩国旅游说中国饭好吃, 去医院抽血能连抽七管, 多了就看不下去了, 一出门全世界倒霉事都被他撞上了. 脸皮咋能这厚. 我贱, 我不看就是了 ​​​&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;2 月 21 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;取消关注要点那个&amp;quot;已关注&amp;quot;, 退群要点那个&amp;quot;已加入&amp;quot;, 谢谢你们的栽培, 我最后给你们磕一个&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;3 月 20 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;哪个导演没有水军? 水军水出来的口碑只是一小部分, 真正的自来水是要靠实力和作品培养起来的! 支持某导! (8 点发)&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;3 月 25 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&amp;quot;农村&amp;quot;是一个只在城市青年想象中存在的地方, 那里的人, 朴实善良 ——观&amp;lt;菊花夜行军&amp;gt;创作纪录片有感&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;3 月 26 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;时间不光是纵向的, 比如我和康熙差了几百年; 也有可能是横向的, 比如我和马总, 也是差了几百年.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;4 月 3 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在买书狂之上的有一种读者, 会通过不断的添加读书记录或者笔记来满足自己的收集癖. 我对自己的阅读要求是: 能否通过阅读形成自己有惯性的思维和行动路径, 并通过新的阅读来填充和修正这套准则.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;5 月 5 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我不排斥电车的, 只是平均每 3 个字就有一篇电动车的推广, 中文写的, 孩怕. &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;5 月 12 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;未接来电真是糟糕的发明啊, 把人类全揉成了一个团, 和稀泥.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;5 月 28 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果我自己不否定自己, 就要等着其它人来否定我, 这让我无法接受.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;6 月 17 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;知乎体就是写两行然后加粗然后再写两行然后再加粗, 傲慢地觉得按照节奏是时候帮助我呆呆的读者下一个结论了.(公众号同理)&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;7 月 1 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;已经买的, 还要推你, 让你买更多; 没钱买的, 猜你想买啥, 让你难过. ——马太福音电商版&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;7 月 16 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一些网上购物的标价令我失望, 万把块的东西非要标上纸盒的价格, 归根结底就是想骗, 不诚实.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;7 月 29 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有点好笑我说着 You don&amp;#39;t have to worry 然后把键盘往显示器下面推忘记把键盘腿掰下去直接把 F1 和 ESC 两个键推得弹飞了&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;7 月 30 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;虽然不是今天, 但我肯定传呼机有朝一日会重新火起来, 讲真. (9 月 17 日按: 黎巴嫩发生寻呼机爆炸, RIP)&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;9 月 3 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;每个人都有不凡, 这就是每个人的平凡&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;9 月 21 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;不断告诉自己, 承认一些偏见, 尊重你我他然后尊重一切是一种很麻烦的完美主义, 它迫使你保留对这个世界的看法, 偏向放弃表达和个人体验, 那更堵心. 有没有偏见有时候都会显得挺没劲, 还好上帝提供了一个优雅的解法: 幽默感.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;10 月 1 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;鼓吹 AI 没用的人, 都是值得我尊敬的人. 他们起码不是基层工作者, 一个特点是只需要指点江山不需要自己亲自动手, 还有一个特点是把持着关键资源不用紧赶慢赶跟着世界着急忙慌地学习...特点还有很多, 总之都是 3 秒之内能让我在地上滑跪的人&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;10 月 8 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在得知自己终究要学会撒谎的时候, 猛的一阵心悸, 赶紧到公园溜达了两圈, 听了几遍一拳超人的&amp;lt;拥抱悲伤&amp;gt;, 买了 5 块钱酱香饼, 一口可乐下去, 终于有所缓解.. 不知道领导们每天是怎么过的&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;10 月 10 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;刚被白菜刺客了, 一颗白菜六块五, 说好的白菜价呢 T T 一想到可能是往后余生买的最便宜的一颗白菜, 感觉还有点小赚&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;10 月 13 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;选择了理性, 就不要尝试和人讲理噻，懂道理的人需要讲咩&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;10 月 15 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;设计相关一类书的特点: 全彩 + 没有扫描件 + 一行字占 4 行 + 软件安装占 80 页 + 需要正版授权 + 原文很原但大小写会错 &amp;#x3D; 售价 288, no discount.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;10 月 18 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我应该是触发了一种奇异的耳鸣现象: 当我把大大小小能通电的电子设备都检查一遍后, 发现他们并不会因为鼠标的移动而发出啸叫, 我明白了, 应该是我大脑直接对鼠标移动发出啸叫了&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;10 月 26 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;怎么就那么喜欢解析别人啊.. 跟以前批判语文阅读理解的是不是同一拨人啊..&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;11 月 6 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我的颅内开发出一种新功能: 一旦在任意照片中发现主角和拍摄者之外的第三人, 就会脑补出&amp;quot;拍照修图,10 元一张&amp;quot;、&amp;quot;美味香肠,6 元一根&amp;quot;等导游大喇叭的声音&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;11 月 8 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;成长的速度要跟上父母变老的速度 ❌&lt;/p&gt;
-&lt;p&gt;成长的速度要跟上骗子进步的速度 ✔️&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;12 月 12 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;说到生育和养老就会有人担心一个人G在房间里都没人知道.. 不是, 你都没了, 还担心这个呢?&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;12 月 13 日&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;做博主的还吐槽其他人的爹味是唠哪样咧, 天天分享云淡风轻的生活真的一点没有教别人做人的意思咩..&lt;/p&gt;
-&lt;hr&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/zh-cn/articles/watch_more_tv/</guid>
-            <title>推荐大伙多看电视</title>
-            <link>https://itemchen.com/zh-cn/articles/watch_more_tv/</link>
-            <category>博文</category>
-            <pubDate>Sat, 31 Aug 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
+</content>
+        <category term="博文" />
+        <updated>2024-10-17T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://itemchen.com/zh-cn/articles/watch_more_tv/</id>
+        <title>推荐大伙多看电视</title>
+        <link rel="alternate" href="https://itemchen.com/zh-cn/articles/watch_more_tv/"/>
+        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 &lt;p&gt;产生”看回电视”这个念头是因为前两天在网上看奥运时候一顿瞎点，点到记录频道《跟着唐诗去旅行》的一集琵琶行，讲的是白居易写这首诗的故事，还挺有意思。主持人特美丽，在网上找，发现这集属于第二季，还没上传。&lt;/p&gt;
 &lt;p&gt;这几天的看电视感受是极好的，我归纳如下。&lt;/p&gt;
 &lt;h2 id=&#34;1、电视节目是精神良药&#34;&gt;&lt;a href=&#34;#1、电视节目是精神良药&#34; class=&#34;headerlink&#34; title=&#34;1、电视节目是精神良药&#34;&gt;&lt;/a&gt;1、电视节目是精神良药&lt;/h2&gt;&lt;p&gt;审核方面，电视的内容是电视台出的，绝对老少咸宜，虽说大部分充满正能量，显得比较魔幻，但好在不会毫无顾忌地展现社会真实来把你往焦虑的方向上引。如果你是一个常年观看敌台节目或者充满生活压力的观众，这份糖精对你负面情绪的治疗很有功效。&lt;/p&gt;
@@ -163,15 +63,15 @@
 &lt;h2 id=&#34;3、看电视是一种生活方式&#34;&gt;&lt;a href=&#34;#3、看电视是一种生活方式&#34; class=&#34;headerlink&#34; title=&#34;3、看电视是一种生活方式&#34;&gt;&lt;/a&gt;3、看电视是一种生活方式&lt;/h2&gt;&lt;p&gt;如今看回电视多少有些刻意，有点行为艺术的意思。从上初中开始，我的房间一直都有电视，过犹不及，很早时候我就对电视失去兴趣。另一方面，对电视我又是有最多依赖的，因为特别怕鬼，无论住到哪里，我都需要有一台电视 24 小时播放，成为我的陪伴。无论我是需要偷偷看，还是可以和谁一起看，她都是一种记忆中温暖的生活方式。这种方式像一颗种子一样种在心里，如今已经长得茂密。很多时候电视只是放着，不需要她来提供什么价值，单单作为背景音就能让我舒畅。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/09/01/VKxAG9wsoCLRWfh.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;许愿，无论是电视还是什么东西在承载着你的生活，是一个人还是和谁一起，是在怀恋过去还是享受当下，珍惜他们吧。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://itemchen.com/zh-cn/articles/what_is_dignity/</guid>
-            <title>尊严</title>
-            <link>https://itemchen.com/zh-cn/articles/what_is_dignity/</link>
-            <category>博文</category>
-            <pubDate>Fri, 16 Aug 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
+</content>
+        <category term="博文" />
+        <updated>2024-08-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://itemchen.com/zh-cn/articles/what_is_dignity/</id>
+        <title>尊严</title>
+        <link rel="alternate" href="https://itemchen.com/zh-cn/articles/what_is_dignity/"/>
+        <content type="html">&lt;span id=&#34;more&#34;&gt;&lt;/span&gt; 
 &lt;p&gt;&lt;span class=&#34;small-title&#34;&gt;1&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;在吉县上班的时候，有天一个施工队的小伙从木杆子上摔下来，把手摔断了。晚饭的时候我听别人这么一说，想象了一下，估计挺疼。&lt;/p&gt;
 &lt;p&gt;第二天上午我经过那，看见一个人：一只手背着石膏，另一只手还在捣捣鼓鼓地忙着啥。”……TNND 这还不回去歇着”，我刚想讲，不过话到嘴边又咽回去了。有次听他们负责人说，出来干活是 150 块钱一天，出工就有钱拿，不出工就没钱拿。&lt;/p&gt;
@@ -204,7 +104,8 @@
 &lt;p&gt;四舍五入也算认识了好些有里有面儿的人，且有的学呢。毕竟我还不懂人活到什么程度，算是有尊严。我不是说我要通过看电视然后发善心来妄想改变别人的生活，对这件事我没有兴趣。我唯一可以庄严承诺的是：我的嘴整天跑火车，所以在任何场合，我说的任何故事，它们从来都没有发生过。&lt;/p&gt;
 &lt;p&gt;图片来自 W.W.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2024/12/20/oOByIdsa3cSxLvU.jpg&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="博文" />
+        <updated>2024-08-15T16:00:00.000Z</updated>
+    </entry>
+</feed>
